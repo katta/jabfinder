@@ -65,3 +65,18 @@ e.g. for Karnataka
 ```
 
 Find the code to the corresponding district you want to check availability for and use it in the `jabfinder check` command.
+
+### Sample Response
+```
++------------+------------+--------+--------+-------------------------------+--------------------------------+
+|    DATE    |  VACCINE   | DOSE 1 | DOSE 2 |            CENTER             |            ADDRESS             |
++------------+------------+--------+--------+-------------------------------+--------------------------------+
+| 23-05-2021 | COVISHIELD | 17     | 25     | Srirampura UPHC               | Near Sai Baba Nagar, 560021    |
++------------+------------+--------+--------+-------------------------------+--------------------------------+
+| 23-05-2021 | COVISHIELD | 0      | 25     | Rajajinagar UPHC              | 57th Cross5th Block            |
+|            |            |        |        |                               | Rajajinagar, 560010            |
++------------+------------+--------+--------+-------------------------------+--------------------------------+
+| 23-05-2021 | COVISHIELD | 0      | 25     | Manjunathanagar UPHC          | 1st Main Road Manjunathanagar  |
+|            |            |        |        |                               | Banglore-560010, 560010        |
++------------+------------+--------+--------+-------------------------------+--------------------------------+
+```
