@@ -24,7 +24,7 @@ Usage:
   jabfinder check [flags]
 
 Flags:
-  -a, --age int               Age group to find slots for (default 18)
+  -a, --age int               18 or 45 - Age group to find slots for (default 18)
   -d, --districtCode string   Numeric district code
   -e, --dose int              1 or 2 - Dose to filter by (default 1)
   -h, --help                  help for check
