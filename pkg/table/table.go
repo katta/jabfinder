@@ -40,6 +40,7 @@ func Render(header []string, rows [][]string, footer []string) {
 	table := tablewriter.NewWriter(os.Stdout)
 	setupTable(table, header, rows, footer)
 	table.SetRowLine(true)
-	table.SetAutoMergeCellsByColumnIndex([]int{len(header)})
+	totalColumns := len(header)
+	table.SetAutoMergeCellsByColumnIndex([]int{totalColumns - 2, totalColumns - 1})
 	table.Render()
 }

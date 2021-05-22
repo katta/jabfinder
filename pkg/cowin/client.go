@@ -15,8 +15,8 @@ import (
 
 const dateFormat = "02-01-2006"
 
-func CheckAvailability(district string, age int) {
-	log.Printf("Checking availability for %v, %v", district, age)
+func CheckAvailability(district string, filters *Filters) {
+	log.Printf("Checking availability for %v, %+v", district, filters)
 
 	client := &http.Client{Timeout: 60 & time.Second}
 	request, err := http.NewRequest("GET", buildQuery(district), nil)
@@ -35,8 +35,8 @@ func CheckAvailability(district string, age int) {
 
 		var cowinResponse CowinResponse
 		if err := json.Unmarshal(body, &cowinResponse); err == nil {
-			log.Printf("Centers: %+v", cowinResponse.Centers)
-			printAvailability(cowinResponse, age)
+			//log.Printf("Centers: %+v", cowinResponse.Centers)
+			printAvailability(cowinResponse, filters)
 		} else {
 			exitOnError(err)
 		}
@@ -46,21 +46,41 @@ func CheckAvailability(district string, age int) {
 	}
 }
 
-func printAvailability(response CowinResponse, age int) {
+func printAvailability(response CowinResponse, filters *Filters) {
 	headers := []string{"Date", "Vaccine", "Dose 1", "Dose 2", "Center", "Address"}
 	rows := [][]string{}
 
+	log.Printf("Filters: %+v", filters)
+
 	for _, center := range response.Centers {
 		for _, session := range center.Sessions {
-			if session.AvailableCapacity > 0 && session.MinAge == age {
-				address := fmt.Sprintf("%s, %d", center.Address, center.Pincode)
-				row := []string{session.Date, session.Vaccine, strconv.Itoa(session.AvailableCapacityDose1), strconv.Itoa(session.AvailableCapacityDose2), center.Name, address}
-				rows = append(rows, row)
+			if session.AvailableCapacity > 0 && session.MinAge == filters.Age {
+				if filters.Dose == 1 && session.AvailableCapacityDose1 > 0 {
+					rows = appendCenter(center, session, rows)
+				} else if filters.Dose == 2 && session.AvailableCapacityDose2 > 0 {
+					rows = appendCenter(center, session, rows)
+				} else if filters.Dose == 0 {
+					rows = appendCenter(center, session, rows)
+				}
 			}
 		}
 	}
 
 	table.Render(headers, rows, []string{})
+}
+
+func appendCenter(center Center, session Session, rows [][]string) [][]string {
+	address := fmt.Sprintf("%s, %d", center.Address, center.Pincode)
+	row := []string{session.Date,
+		session.Vaccine,
+		strconv.Itoa(session.AvailableCapacityDose1),
+		strconv.Itoa(session.AvailableCapacityDose2),
+		//strings.Join(session.Slots[:], ","),
+		center.Name,
+		address,
+	}
+	rows = append(rows, row)
+	return rows
 }
 
 func buildQuery(district string) string {

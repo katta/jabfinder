@@ -5,7 +5,7 @@ type CowinResponse struct {
 }
 
 type Center struct {
-	Name string
+	Name     string
 	Address  string
 	District string `json:"district_name"`
 	State    string `json:"state_name"`
@@ -21,4 +21,10 @@ type Session struct {
 	AvailableCapacityDose2 int `json:"available_capacity_dose2"`
 	MinAge                 int `json:"min_age_limit"`
 	Vaccine                string
+	Slots                  []string
+}
+
+type Filters struct {
+	Age  int
+	Dose int
 }
