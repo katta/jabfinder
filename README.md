@@ -49,28 +49,19 @@ Refer the following examples to know how to use this utility
 
 ### Finding district code
 
-You will have to first know the state code you are searching for. You can find the state code from this file [states](./pkg/cowin/states.json)
+You will have to first know the state code you are searching for. You can find the state code by running the following command.
 
 ```
-e.g.: If you are looking for a district in Karnataka, search for "karnataka" sates file mentioned above. The number 16 (state_id) in this example is the state code for Karnataka.
-    
-{
-  "state_id": 16,
-  "state_name": "Karnataka"
-}
-
+./jabfinder states
 ```
 
-Use the state code you have identified like this to find the district code you are searching for by running the following comamnd.
+Use the state code you have identified like this to find the district code you are searching for by running the following command.
 ```
-## Replace STATE_CODE in the following command with the state code you have identified
+./jabfinder districts -s <STATECODE>
 
-curl --location --request GET 'https://cdn-api.co-vin.in/api/v2/admin/location/districts/<STATE_CODE>' \
---header 'User-Agent: Mozilla/5.0'
+e.g. for Karnataka
 
-e.g. For Karnataka , where the state code is 16 use this follwoing command
-
-curl --location --request GET 'https://cdn-api.co-vin.in/api/v2/admin/location/districts/16' \
---header 'User-Agent: Mozilla/5.0'
+./jabfinder districts -s 16
 ```
-You will get a JSON response which will have all the districts along with its id. Find the district you are looking for and then pick its id which should be used as `districtCode` parameter while using this utility. You can find the sample districts file [here](./pkg/cowin/districts.json)
+
+Find the code to the corresponding district you want to check availability for and use it in the `jabfinder check` command.
