@@ -2,7 +2,7 @@
 
 Command line utility to check for available covid vaccines based on district, age and dosage preferences.
 
-> **Disclaimer**: This is created just to ease the search for vaccine availability, this is not supported or endorsed by any official governing authorities. So use it with caution.       
+> **Disclaimer**: This is created just to ease the search for vaccine availability, this is not supported or endorsed by any official governing authorities nor by the author of this utility. So use it with caution and at your own risk.       
 
 ## Prerequisites
 
