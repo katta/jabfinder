@@ -4,6 +4,10 @@ Command line utility to check for available covid vaccines based on district, ag
 
 > **Disclaimer**: This is created just to ease the search for vaccine availability, this is not supported or endorsed by any official governing authorities. So use it with caution.       
 
+## Prerequisites
+
+You would need `golang` and `curl` installed on your machine. 
+
 ## Usage 
 
 ```
