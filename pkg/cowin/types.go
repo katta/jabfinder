@@ -28,3 +28,12 @@ type Filters struct {
 	Age  int
 	Dose int
 }
+
+type StatesResponse struct {
+	States []State
+}
+
+type State struct {
+	Name string `json:"state_name"`
+	Code int    `json:"state_id"`
+}

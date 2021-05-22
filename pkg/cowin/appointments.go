@@ -4,11 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/katta/jabfinder/pkg/table"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"net/url"
 	"strconv"
 	"time"
 )
@@ -19,7 +17,7 @@ func CheckAvailability(district string, filters *Filters) {
 	log.Printf("Checking availability for %v, %+v", district, filters)
 
 	client := &http.Client{Timeout: 60 & time.Second}
-	request, err := http.NewRequest("GET", buildQuery(district), nil)
+	request, err := http.NewRequest("GET", buildAppointmentQuery(district), nil)
 	exitOnError(err)
 
 	request.Header.Add("user-agent", "Mozilla/5.0")
@@ -66,7 +64,7 @@ func printAvailability(response CowinResponse, filters *Filters) {
 		}
 	}
 
-	table.Render(headers, rows, []string{})
+	table.Render(headers, rows, []string{}, true)
 }
 
 func appendCenter(center Center, session Session, rows [][]string) [][]string {
@@ -81,25 +79,4 @@ func appendCenter(center Center, session Session, rows [][]string) [][]string {
 	}
 	rows = append(rows, row)
 	return rows
-}
-
-func buildQuery(district string) string {
-	cowinUrl := viper.GetString("cowin.baseurl")
-	log.Printf("Using %v to check for availability", cowinUrl)
-	query, err := url.Parse(cowinUrl)
-	exitOnError(err)
-
-	values := url.Values{}
-	values.Set("district_id", district)
-	values.Set("date", time.Now().Format(dateFormat))
-	query.RawQuery = values.Encode()
-
-	log.Printf("Query with parameters: %v", query.String())
-	return query.String()
-}
-
-func exitOnError(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
 }

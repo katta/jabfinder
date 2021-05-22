@@ -1,2 +1,5 @@
 cowin:
-  baseurl: "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict"
+  baseurl: "https://cdn-api.co-vin.in/api/v2/"
+  appointmentsPath: "appointment/sessions/public/calendarByDistrict"
+  statesPath: "admin/location/states"
+  districtsPath: "admin/location/districts"

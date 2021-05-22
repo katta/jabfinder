@@ -36,10 +36,10 @@ func setupTable(table *tablewriter.Table, header []string, rows [][]string, foot
 	return table
 }
 
-func Render(header []string, rows [][]string, footer []string) {
+func Render(header []string, rows [][]string, footer []string, showRowLine bool) {
 	table := tablewriter.NewWriter(os.Stdout)
 	setupTable(table, header, rows, footer)
-	table.SetRowLine(true)
+	table.SetRowLine(showRowLine)
 	totalColumns := len(header)
 	table.SetAutoMergeCellsByColumnIndex([]int{totalColumns - 2, totalColumns - 1})
 	table.Render()
