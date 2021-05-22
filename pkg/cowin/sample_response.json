@@ -1,0 +1,5230 @@
+{
+  "centers": [
+    {
+      "center_id": 421911,
+      "name": "Jeevanahalli Uphc 1",
+      "address": "Jeevanahalli Park Road Near Telugu School",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560005,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ee43f3a6-f06d-4f98-bb76-25f5ab7f837a",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418584,
+      "name": "HOMBEGOWDA NAGARA UPHC",
+      "address": "327 Siddaiah Road Vinyaka Nagar Chinayyanapalya Wilson Gardenbengaluru.",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560027,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "50ea9e5b-49d9-4420-98ec-4ffd5fcf0591",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "4fcaa055-db8f-4216-9946-764b0d500064",
+          "date": "26-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 1
+        }
+      ]
+    },
+    {
+      "center_id": 679403,
+      "name": "ITI HOSPITAL P3",
+      "address": "Duravani Nagar Dooravani Nagar Bengaluru Karnataka 560016",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560016,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d0717c1d-9267-4b81-af4a-7c746cad19da",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "94845b4a-8084-4d26-976e-7933875769bc",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 579351,
+      "name": "Jayanagar Generalhospitalsite2",
+      "address": "JAYANAGAR G H 4TH T BLOCK BANGALORE",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560011,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ac52d1a1-f4c9-417d-a377-180c18488952",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418256,
+      "name": "Gooripalya UPHC",
+      "address": "3rd CrossGoripalya",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560026,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5a38e8f6-bc15-4df3-8318-a658f84ff7f6",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "acea6f83-df09-4dac-b20a-6422bd54bc0d",
+          "date": "23-05-2021",
+          "available_capacity": 38,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 13,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 604866,
+      "name": "APOLLO HOSPITAL SHESHADRIPURAM",
+      "address": "Seshadripuram Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560020,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "13:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "8eb22579-24b6-4653-8114-c559022c6c2c",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "59cfad49-a76b-4219-9ed6-46ebef342781",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 418351,
+      "name": "Hosahalli UPHC",
+      "address": "4th CrossM C Layout",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560040,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "982411f3-aa37-44f6-a6b2-a215117be345",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "182cd66a-eb1a-4fe5-a7f7-3ba862c601f2",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 558395,
+      "name": "Bowring Hospital Covaxin Vip-1",
+      "address": "Lady Curzon Rd Shivaji Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560051,
+      "lat": 12,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b9d17fcf-8f14-4ae4-9f99-2253555a0679",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 587353,
+      "name": "APTS UPHC",
+      "address": "Armed Police Training School",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560063,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3b065acf-b8ad-43d3-ad3d-45f692f91d1b",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ]
+    },
+    {
+      "center_id": 407217,
+      "name": "Vibuthipura UPHC P3",
+      "address": "Annasandrapalya Main Rd, Ramesh Nagar, Vibhutipura, Bengaluru,",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560037,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "21b3ee49-be11-429f-bdc4-0705ad01c150",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "893ea8b4-462d-4b08-8f15-7dbc3ac1a0a4",
+          "date": "23-05-2021",
+          "available_capacity": 34,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 34,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 421916,
+      "name": "Banaswadi UPHC 1",
+      "address": "Near Banasawadi Bus Stop",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560043,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a38e8373-8541-4acf-a690-f79efb706371",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "1575d2a0-4d45-4a17-b556-1ed69314de5f",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418318,
+      "name": "Subramanyanagar UPHC",
+      "address": "9th MainNear GD Park Mariyappanapalya",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "48d616ae-d57e-4105-b41f-4cce38d49fdf",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "2e066f1a-1494-42eb-b40c-8fcda149a3d8",
+          "date": "23-05-2021",
+          "available_capacity": 31,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 6,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 407188,
+      "name": "Ullalu UPHC",
+      "address": "Near Ullal Busstop",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "DASRAHALLI",
+      "pincode": 560056,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a1df2b0a-060d-4198-bfec-a4de62cdc9a1",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "f09c27b8-347c-498b-b09d-e1c3c8d8b897",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 579284,
+      "name": "MOHAMMED SAB PALYA UPHC",
+      "address": "MOHAMED SAB PALYA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560097,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "22c4bbfa-6ee7-4be3-8ddb-9bd732691d64",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ]
+    },
+    {
+      "center_id": 686670,
+      "name": "THIPPENAHALLI PHC COVISHIELD",
+      "address": "THIPPENAHALLI DODDABIDARAKKALU",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Dasarahalli",
+      "pincode": 560057,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c9b10aa0-c4b8-43aa-a866-4b2411569899",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 705732,
+      "name": "SUBRAMANYA MATA",
+      "address": "5TH CROSS AKSHAY NAGAR BEGUR POST",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "13:00:00",
+      "to": "15:30:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e5258fdf-8749-4269-8166-5d92156e6fdc",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "01:00PM-03:00PM",
+            "03:00PM-03:30PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "3f183500-af5d-427d-850c-2bacced7a96c",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 517615,
+      "name": "Matthikere UPHC",
+      "address": "Opp. Keshav Theater B.K Nagara",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560022,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fce61535-0c18-4e48-b437-1e495263f2fd",
+          "date": "22-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 10
+        }
+      ]
+    },
+    {
+      "center_id": 677458,
+      "name": "ROOPENA AGRAHARA UPHC C1",
+      "address": "Urban Primary Health Center",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "12:30:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "07df01d7-d3d8-49ec-a36d-09f2e9985904",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "12:30PM-01:30PM",
+            "01:30PM-02:30PM",
+            "02:30PM-03:30PM",
+            "03:30PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 689918,
+      "name": "HAGADURU UPHC COVAXIN",
+      "address": "Sub Center Immadihalli Circle- Immadihalli-560066",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560066,
+      "lat": 0,
+      "long": 0,
+      "from": "10:30:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "50071c60-bbe6-4208-989d-2deaaf3a5071",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:30AM-11:30AM",
+            "11:30AM-12:30PM",
+            "12:30PM-01:30PM",
+            "01:30PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 406875,
+      "name": "Doddakannalli UPHC P3",
+      "address": "Janatha Colony, Chikkabellandur, Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560035,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23b9c6cf-6675-48ba-b776-53e919770b8d",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "0b610e0f-6349-46ad-8cc7-83934999c1ea",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 527558,
+      "name": "Adugodi UPHC",
+      "address": "BALAPPA LAYOUT ADUGODI KORAMANAGALA MAIN ROAD",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560030,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2bc6d1bc-c92b-4523-8f60-f1cfb8a593be",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 705722,
+      "name": "KONANKUNTE QUARTERS",
+      "address": "Anjanapura Main Rd Konanakunte",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560062,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4095f1b2-b45d-4d7b-adda-33c9f7de6a2e",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "5c25b7fa-126f-49eb-86bf-751572842305",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 406950,
+      "name": "Kadugondanahalli CHC",
+      "address": "Tannery Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560045,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f62d3337-4f78-4c77-866f-07a5297853bf",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 561036,
+      "name": "VASAVI HOSPITAL KS LAYOUT",
+      "address": "70TH CROSSOPP TO 15 E BUS STOP KS LAYOUT 1ST STAGE B-78",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560078,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "e37a7b32-799a-4f15-aaca-f694dc63163e",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "250"
+        }
+      ]
+    },
+    {
+      "center_id": 675142,
+      "name": "BEGUR GOVT SCHOOL",
+      "address": "NEAR VP LAYOUT",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4a18b212-b70c-48fa-a278-8c1098db4581",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407211,
+      "name": "Vasanthapura UPHC",
+      "address": "Uttarahalli Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560061,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "96b2d5fb-1fad-4682-9aee-fb6ddc1d0d48",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "bbd5e961-360f-4066-a0ca-c13c660cc440",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 558441,
+      "name": "Bowring Block 1A",
+      "address": "Lady Curzon Rd Shivaji Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560051,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "320b97bf-f424-4be2-a56d-a0e7dbe3815e",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 645206,
+      "name": "Mallathahalli UPHC C1",
+      "address": "Kengeri Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "DASRAHALLI",
+      "pincode": 560056,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b6ed80a1-762a-4a14-b82f-1195a88c6aa7",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 593230,
+      "name": "MADIWALA UPHC -1",
+      "address": "18th Cross Btm 1st Stage Madiwala",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5240dcb4-304a-4346-81d5-134ace4fc9de",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 562758,
+      "name": "Sir C V Raman Hospital C1",
+      "address": "80 Feet Road Indiranagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560038,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "aa5f9b7a-2ecd-4119-97f4-493c926bbdb6",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 564967,
+      "name": "Mallathahalli UPHC 1",
+      "address": "Kengeri Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "DASRAHALLI",
+      "pincode": 560056,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f07cb952-cd5e-49a9-9b36-d94b03f35eba",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407120,
+      "name": "Singasandra UPHC",
+      "address": "Hosa Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560100,
+      "lat": 12,
+      "long": 77,
+      "from": "17:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "12d66ea4-ace4-4e2d-9382-86f10c942df0",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "05:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418249,
+      "name": "Koramangala UPHC",
+      "address": "Near Dog Pound L R Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560047,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ceeb44c5-8f76-456a-b53f-6842ae04e036",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 703638,
+      "name": "AGARA GOVT SCHOOL",
+      "address": "HSR LYT FIRST SECTOR",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560102,
+      "lat": 12,
+      "long": 77,
+      "from": "12:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5a19685f-fcf5-4c8e-963a-598df757ca30",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "837b702d-76ad-4aec-b26d-e2d1c4a4a5f5",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418635,
+      "name": "Manjunathanagar UPHC",
+      "address": "1st Main Road Manjunathanagar Banglore-560010",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560010,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f566cccb-652a-45c4-ad03-b7584ec54029",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "580876ee-2f55-420c-b370-a1f185437f11",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418419,
+      "name": "Peenya Kamalanagara UPHC",
+      "address": "BBMP Building Next To Shankarnag Bus Stop",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560079,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "6a1840fe-f805-4036-8fa4-357cce79c235",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "bc4add65-a540-44cf-bab4-f857af469177",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 421763,
+      "name": "Jayanagara Dispensary",
+      "address": "9th Main2nd Block JayaNagara",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560011,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d439b4be-4a93-41e9-bece-03261827404a",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 406866,
+      "name": "BYATARAYANAPURA UPHC",
+      "address": "Kuvempunagara",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560014,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b98b8f27-b870-4979-81bd-6fafc7acd4ea",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ]
+    },
+    {
+      "center_id": 572142,
+      "name": "JAYNAGAR GEN HOSPITAL",
+      "address": "JAYNAGAR GH 4TH BLOCK BLORE",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560011,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2f1d5460-c0d8-4d1b-b192-412e4077c98d",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 421830,
+      "name": "Hanumanthnagara Tr Mill UPHC",
+      "address": "Brindavan Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560050,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e69f13e5-4afd-413d-95bf-3d531a06bf89",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 581893,
+      "name": "Jayanagara Dispensary COVAXIN",
+      "address": "JAYANAGARA 9TH MAIN 2ND BL0CK",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560011,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "36309ac6-6ec9-43ef-a208-3bb1cdf93b74",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 604573,
+      "name": "VICTORIA",
+      "address": "VICTORIA HOSPITAL CAMPUS K R MARKET",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560002,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "13:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "93b796cc-b1c0-424c-bedc-915c23c50790",
+          "date": "22-05-2021",
+          "available_capacity": 26,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
+          ],
+          "available_capacity_dose1": 1,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 705716,
+      "name": "GOTTIGERE GOVT SCHOOL",
+      "address": "Bannerghatta Main Rd Kalena Agrahara",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560076,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4b372154-a717-4e09-b2dc-0ac5b56a0758",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "c34907fe-2f76-4531-9db2-1b729c540808",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407235,
+      "name": "Vijinapura UPHC P3",
+      "address": "KUVEMPU NAGARADOORAVANI NAGAR VIJINAPURA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560016,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7df6a1f4-c65b-45da-8602-3238821e0016",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "b335f26d-a5f1-4ed5-a9a7-5aaa452aa7fe",
+          "date": "23-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 10,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 676829,
+      "name": "Vasanth Nagar Uphc Covaxin",
+      "address": "19 Mv Jayram Road Vasanth Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560006,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "6c38c0ec-abe2-4e53-9ca5-97c7778c8aaf",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 527094,
+      "name": "Hsiddaiah Road UPHC1",
+      "address": "NEAR BBMP CAR PARKING J C ROAD",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560027,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5383e70c-df78-4443-bab4-81f48ce32d7b",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 626337,
+      "name": "KETHAM HOSPITAL PVT LTD",
+      "address": "M Nanjappa Road Near-Vijaya Bank Vidyaranyapura",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560097,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "fe10503c-b8c0-4f10-ae72-995c9862325d",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "250"
+        }
+      ]
+    },
+    {
+      "center_id": 604420,
+      "name": "K C Gen Hospital",
+      "address": "Malleshwarm Circle Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560003,
+      "lat": 12,
+      "long": 77,
+      "from": "12:30:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c216ed07-f5d0-4f38-bd2f-6e6edd2e848e",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:30PM-01:30PM",
+            "01:30PM-02:30PM",
+            "02:30PM-03:30PM",
+            "03:30PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "670f0862-99c3-40e8-8a71-8d5b7224fc31",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 684393,
+      "name": "SIDDAPURA UPHC MDPURA COVAXIN",
+      "address": "SIDDAPURA PHC, NEAR SHELL PETROL BUNK",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560066,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d5899291-13f5-4b05-bf19-d139554ee786",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 672841,
+      "name": "Kudlu Ward Office",
+      "address": "1st Cross BBMP WARD OFFICEKudlu VGP Layout Bengaluru Karnataka 560068",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e48b9943-4f1d-48d9-8b44-8205e6dcafeb",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "0fe98a0d-e317-417c-ba70-55a00ebffe8b",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418375,
+      "name": "Jayanagara UPHC",
+      "address": "RAMA MANDIRA BEHIND GIRIYAS 5TH CROSS 10 C MAIN ROAD JAYANAGARA 1ST BLOCK",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560011,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "eb5da12a-3529-44c9-96ba-5c900c1f9c8b",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 561195,
+      "name": "COLUMBIA ASIA HEBBAL",
+      "address": "HEBBAL KEMPAPURA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560024,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "ee806adc-ea45-4af9-9935-79444afc93b3",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "94109849-fe23-4dba-beb2-be20a2bab03a",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 578367,
+      "name": "VASANTHNAGAR UPHC BLOCK",
+      "address": "19 MV Jayaram Rd Vasanth Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "6b3b07c2-befe-4160-9608-72a82a6c3e50",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418274,
+      "name": "Subhashnagar UPHC",
+      "address": "5th Main Road Opposite BBMP School Srirampur",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "58c9f2c8-961e-410b-8928-46d99656b8ab",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "fd037924-accd-4488-82b2-238317e75d18",
+          "date": "23-05-2021",
+          "available_capacity": 45,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 20,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 559097,
+      "name": "C V Raman Hospital Block 2",
+      "address": "4th B Cross Rd Kalyan Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560008,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e072dd1b-9358-4661-9541-45cd2f7d209b",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ]
+    },
+    {
+      "center_id": 406889,
+      "name": "Government School Doddanekundi",
+      "address": "Government Higher Primary School Doddanekkundi",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560037,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "688d2d76-ed3a-4a8a-84c1-a93657a8a63a",
+          "date": "22-05-2021",
+          "available_capacity": 4,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 4,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "4636a001-bff1-43e1-8360-7c0a3a9fe207",
+          "date": "23-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 1,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 686355,
+      "name": "Vibuthipura UPHC COVAXIN",
+      "address": "Annasandrapalya Main Rd Ramesh Nagar Vibhutipura Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560037,
+      "lat": 12,
+      "long": 77,
+      "from": "10:30:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "cec865d8-2833-417c-8081-f13b4f98e75b",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:30AM-11:30AM",
+            "11:30AM-12:30PM",
+            "12:30PM-01:30PM",
+            "01:30PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 705729,
+      "name": "GAYATHRI BHAVAN",
+      "address": "Begur Main Rd Vishwapriya Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1a726056-6048-40f8-a6c2-2f9c8f321c8b",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "3f0d23db-d2dc-4938-a0ee-ae063faefa34",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 422743,
+      "name": "West Of Chord Road Uphc Site2",
+      "address": "Govt School Hosahlli Village Near Park",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560040,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b4c27c53-11e5-4e8c-8736-49da440edef5",
+          "date": "22-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 1
+        }
+      ]
+    },
+    {
+      "center_id": 591086,
+      "name": "Shanthinagar UPHC BLOCK 1",
+      "address": "Hudson Circle",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560027,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d88ac688-9e03-45b6-a658-fba994b72ee1",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "f868cf9f-ffd8-4b20-b6b7-1741d7634fd8",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418619,
+      "name": "Sulthanpalya UPHC",
+      "address": "Near Pushpanjali Theatre Sulthan Palya",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560032,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3b4a72d3-9173-4e14-a71c-b1344920246d",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418575,
+      "name": "Gandhi Grama UPHC",
+      "address": "3rd CrossGandhi Grama Near East West Academy School",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "cef51c71-2dae-4e78-823f-a66bdd34009e",
+          "date": "22-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "be96540f-79bf-4c0e-aaa3-46ec27e9be62",
+          "date": "23-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 5,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 705771,
+      "name": "GOVT SCHOOL JARAGANAHALLI",
+      "address": "Yelachenahalli Kumaraswamy Layout",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560078,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "831e9f04-176b-4c1b-a5ad-4ed7134689ee",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "b2ebd07a-de67-41ba-9f46-174559de4321",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 509312,
+      "name": "Adugodi Dispensary",
+      "address": "Adugodi Village Hosur Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560030,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "dfd7f780-4ed2-40f5-93c6-cc828ad466cd",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 705672,
+      "name": "THANISANDRA UPHC C1",
+      "address": "6th Cross",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560077,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "656521cf-57e6-4c86-a63a-7513357a89aa",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 674545,
+      "name": "VASANTHNAGAR (sampangi)",
+      "address": "19 MV Jayaram Rd Vasanth Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "dff96e22-4c37-4674-887b-7f8a74dbcf10",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418365,
+      "name": "Kodihalli UPHC Covi-S",
+      "address": "Old Airport Road Next To Manipal Hospital",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560008,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a728ce0d-cdae-461f-957a-1f9f44f4fa96",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "1055b068-9f18-4766-8aaa-8f9745690dff",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 558678,
+      "name": "Bowring Hospital C1",
+      "address": "Lady Curzon Rd Shivaji Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560051,
+      "lat": 12,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23e3107a-37e0-451b-ab6e-6d4e8a624238",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418453,
+      "name": "Narasimharaja Colony UPHC",
+      "address": "Subbarama Chetty Road Oppo State Bank Of India Basavanagudi NR Colony",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560004,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "998c7a7f-044b-413b-8fcb-9b50ec0c3252",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 629553,
+      "name": "TOP PALACE FUNCTION HALL",
+      "address": "ITI LAYOUT MANGAMMANAPALYA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b90e05f4-f042-43ae-b622-ca0cb5c204b3",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "6152eed3-999a-4639-9914-86c7125b6f37",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407097,
+      "name": "Roopenagrahara UPHC",
+      "address": "Yoga Mandir Virat Nagar Park",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f21f2395-3203-4b7d-a4ef-c4c099cdd905",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "cd934c54-37aa-4e29-9279-d4768257a65a",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418555,
+      "name": "Ganganagara UPHC 1",
+      "address": "3rd Main Church Road RT Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560032,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a03d927d-5d8b-4fd6-90dd-4fb9278b0478",
+          "date": "22-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 1
+        },
+        {
+          "session_id": "c2ceb13d-71a9-4a97-85cb-d7ee8c14a848",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 685535,
+      "name": "Garudacharpalya UPHC COVAXIN",
+      "address": "Seetharama Palya AWC",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560048,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "6ab8d2f3-ca77-4237-b951-a1521216d8b8",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407139,
+      "name": "THANISANDRA UPHC",
+      "address": "6th Cross",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Yelahanka",
+      "pincode": 560077,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1e772c26-a5cc-4605-829a-1db724b2e54a",
+          "date": "22-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        }
+      ]
+    },
+    {
+      "center_id": 418468,
+      "name": "AustinTown UPHC 1",
+      "address": "Near Vivek Nagar Police Station",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560047,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "8f55c738-d8fa-4759-a9e6-20b5f901cb61",
+          "date": "22-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "d733851e-2438-48b3-abf0-7943fab59975",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 587196,
+      "name": "Hulimavu GOVT SCHOOL",
+      "address": "Near Rama Temple",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560076,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f0b097ea-a968-4bd0-a626-054cc94b0280",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 422761,
+      "name": "Srirampura UPHC",
+      "address": "Near Sai Baba Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "cd25c7d5-766e-4bf0-91a1-69804b3b0dcb",
+          "date": "23-05-2021",
+          "available_capacity": 44,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 19,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418628,
+      "name": "Rajajinagar UPHC",
+      "address": "57th Cross5th Block Rajajinagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560010,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b7347617-7f86-4135-ad22-fee0a18fad1b",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 572792,
+      "name": "BHUVANESHWRI NAGAR UPHC 1",
+      "address": "C V RAMAN NAGAR BENGALORE",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560093,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "10d8f6ff-0a75-47c2-8eb3-00f124726aa6",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418383,
+      "name": "Kodandarampura UPHC FLW 1",
+      "address": "Sirur Park Road Seshadripuram Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560020,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "78d31aed-61f1-401c-816b-7009c74a213e",
+          "date": "23-05-2021",
+          "available_capacity": 32,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 7,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 565262,
+      "name": "HEROHALLI UPHC",
+      "address": "Magadi Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Dasarahalli",
+      "pincode": 560091,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "61c0a0ae-d980-4d42-b2f5-a2367ad79eed",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418233,
+      "name": "Magadi Road UPHC",
+      "address": "2nd Cross Magadi Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560023,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "0769a709-d6b8-4828-9c6a-b47ce221be0f",
+          "date": "23-05-2021",
+          "available_capacity": 28,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 3,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 645192,
+      "name": "SHANI MAHATMA TEMPLE",
+      "address": "GUBBALALA MAIN ROAD",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560061,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c0f91c4a-e672-43e8-8b82-3e8ccb1ed7ae",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 571057,
+      "name": "COX TOWN UPHC",
+      "address": "Jeevanhalli Cox Town",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560005,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fcde7ab6-aacd-4004-a9e6-bd5ac614a172",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 577774,
+      "name": "Marathahalli UPHC P3",
+      "address": "PHC MARATHALLI ANANAD NAGAR 2ND CROSS MARATHALLI BANGLORE 560037",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560037,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "87d210d9-e632-4ece-9cc6-9d98b14b817b",
+          "date": "23-05-2021",
+          "available_capacity": 8,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 8,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418437,
+      "name": "Kamakshipalya UPHC",
+      "address": "Opp SBI Bank Magadi Road Kamakshipalya",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560079,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "cfcdc3c8-2d5e-49c6-9d67-a74c1f67aa76",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 407206,
+      "name": "Varthuru UPHC P3",
+      "address": "Varthuru Main Road Near Varthuru Police Station",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560087,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ab3f96ae-ac1b-4840-88e7-9f769d2fb48b",
+          "date": "23-05-2021",
+          "available_capacity": 17,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 17,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 577927,
+      "name": "Govt School Siddapura Ramgonda",
+      "address": "Government School Ramgondanahalli",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560066,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bd5da780-2dbb-4443-83da-4a6b168a465b",
+          "date": "23-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 1,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 670986,
+      "name": "THIPPENAHALLI DAS SITE 2",
+      "address": "Nelgadana Halli School Road Shivapura Peenya Bengaluru Karnataka",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Dasarahalli",
+      "pincode": 560058,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "9ca868d9-a48a-4703-be68-9d2f3704e3b3",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 569672,
+      "name": "VIKRAM HOSPITAL Covi-s",
+      "address": "Millers Road Vasanthanagara",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "c1283e8c-9400-408e-9931-44ededfde552",
+          "date": "23-05-2021",
+          "available_capacity": 75,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 75
+        },
+        {
+          "session_id": "8f5c6cef-138b-4be3-893a-6d81b32f446d",
+          "date": "23-05-2021",
+          "available_capacity": 18,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 18
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 422034,
+      "name": "Ashokpuram UPHC",
+      "address": "5th Cross Ashokpuram Yeshwanthpur Industrial Surb Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560086,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "523d4653-3882-4648-ad19-e86797748944",
+          "date": "23-05-2021",
+          "available_capacity": 27,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 2,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 587257,
+      "name": "SEEGEHALLI MH P3",
+      "address": "SEEGEHALLI MATERNITIY WARD KR PURAM",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560049,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f6853138-1c16-4058-b418-1fbeb1402e15",
+          "date": "23-05-2021",
+          "available_capacity": 24,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 24,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418647,
+      "name": "DOMLUR UPHC 1",
+      "address": "ESI Hospital Double Road Indranagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560071,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "0439c05e-a0e9-4afd-911b-ba09ddbeb838",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418386,
+      "name": "Manvarthpet UPHC",
+      "address": "KV Temple Street Balepete Circle Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560026,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3aaf322a-bd98-443a-b069-0ca1c2b43a97",
+          "date": "23-05-2021",
+          "available_capacity": 44,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 19,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 566758,
+      "name": "Shankar Nagar UPHC",
+      "address": "SHANKAR NAGAR UPHC - 110-111 7TH CROSS SHANKAR NAGAR NANDINI LAYOUT BANGALORE",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560096,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "6783b67e-c8f2-419e-a240-7cc0c859659e",
+          "date": "23-05-2021",
+          "available_capacity": 30,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 5,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 572920,
+      "name": "SUBEDARAPALYA UPHC",
+      "address": "1ST CROSS SAVIOUR CHURCH OPPOSITE SUBEDARPALYA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560022,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1f6df4ef-3f13-4eb0-a910-9059b4875e1b",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418573,
+      "name": "Nagappablock UPHC",
+      "address": "Near Sriranpur Metro Station",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7620e8d0-a675-4fa6-acf9-06be9d4a4519",
+          "date": "23-05-2021",
+          "available_capacity": 29,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 4,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418458,
+      "name": "Azadnagar UPHC",
+      "address": "Pipeline Road K B Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560026,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "51a8e8a8-6aa7-403b-a35a-3aa60bb5b2b5",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 421996,
+      "name": "Agrahara Dasarahalli UPHC",
+      "address": "AD Halli",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560079,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "553042c6-a30a-4e39-9cbe-4fc65a775aea",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 406796,
+      "name": "MAHANAGAR LIONS CLUB",
+      "address": "Mahanagar Lions Service Foundation Tippasandra",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560108,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c8f2cc60-a08d-4cdf-afe1-369765e5c94d",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 671440,
+      "name": "DMJ INSTITUTE",
+      "address": "DMJ Institute Of Nursing Sciences Kanakapura Road Jarganahalli Yelachenahalli Kumaraswamy Layout Bengaluru Karnataka India",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560111,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bb293ab2-fe0a-49d8-acc7-3ed753ac749d",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 406939,
+      "name": "Government School Kadugodi",
+      "address": "Government School Kadugodi Railway Station Kadugodi",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560067,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7f6b4aa2-5482-423d-913a-2560ce6efdbe",
+          "date": "23-05-2021",
+          "available_capacity": 13,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 13,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418531,
+      "name": "Cholanayakanahalli UPHC",
+      "address": "Cholanayakanahalli",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560032,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "8d750a7a-7bda-4c46-9116-426e35f7f24e",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 561106,
+      "name": "YAMLURU UPHC P3",
+      "address": "Kempapura MAIN ROAD,Bellandur, Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560037,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d1f4bc30-8476-4f32-bda0-27a850cf8db6",
+          "date": "23-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 23,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 564767,
+      "name": "K NARAYANAPURA UPHC P3",
+      "address": "K Narayanapura Main Rd, Narayanapura, Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560077,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "af6e97db-0f9b-458f-85a1-dbd5b77878e8",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418264,
+      "name": "Anjanappa Garden UPHC",
+      "address": "Behind Banana Market Anjanappa Garden",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560018,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a01ad085-089b-4595-b927-f39ba067c78f",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 596452,
+      "name": "Vanivillas Hospital 1",
+      "address": "VICTORIA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560018,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "13:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1a50ece0-fc14-473a-9f13-4138e6cb027b",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 673929,
+      "name": "BBMP Ward Office-Bilekahalli",
+      "address": "Ayyappa Temple Bilekahalli",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560076,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "844cb0bb-e404-43c9-807e-af04cbda15f2",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 517595,
+      "name": "Indian Red Cross Society UPHC",
+      "address": "Sirsi Circle Chamarajpet",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560018,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4276fe59-7da0-49d1-abd9-2a02979808e0",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 559920,
+      "name": "NEELSANDRA UPHC COVI-S",
+      "address": "OPP TO MILLITARY MAIN GATE  NEELSANDRA",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560047,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "44de2db6-7f55-40c8-90b9-a4b8938cfb82",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 406735,
+      "name": "BBMP Ward Office A Narayanpura",
+      "address": "BBMP Officeward 56near Hanuman Park A Narayanapura",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560016,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f3274210-b264-448e-8715-b35f484d9679",
+          "date": "23-05-2021",
+          "available_capacity": 9,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 9,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418418,
+      "name": "Nethaji Circle UPHC",
+      "address": "Near BBMP 36 Ward Office Netaji Circle",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560054,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f9ffee5a-65a3-45a9-8a8f-52902e56a242",
+          "date": "23-05-2021",
+          "available_capacity": 22,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 417284,
+      "name": "P G Halli UPHC",
+      "address": "Near Jataka Stand Palace Guttahalli",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560003,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fa8fa6b2-321e-4258-a7d9-80df15c88dde",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418505,
+      "name": "Gangondanahalli UPHC",
+      "address": "6th CrossAhmed Nagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560039,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "dc5f6742-0108-4f89-bc71-22329449e5d4",
+          "date": "23-05-2021",
+          "available_capacity": 38,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 13,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 422073,
+      "name": "Mahalakshmi Layout UPHC",
+      "address": "Mahalaxmi Layout UPHC",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560086,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "cc58ba0f-9f50-42f7-9e7f-d16124b35ab3",
+          "date": "23-05-2021",
+          "available_capacity": 27,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 2,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 406895,
+      "name": "Garudacharpalya Uphc P3",
+      "address": "Seetharama Palya AWC",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560048,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d94292c7-61aa-48a2-b34b-a1b0bb19381a",
+          "date": "23-05-2021",
+          "available_capacity": 37,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 37,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407039,
+      "name": "Laggere UPHC",
+      "address": "Muneshwara Layout",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Dasarahalli",
+      "pincode": 560058,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f88dd3ef-1440-4cb1-9359-e1cf52a9ca80",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 577717,
+      "name": "SLV Samudaya Bhavana RM Nagar",
+      "address": "Bovi Colony Anganwadi Center Opp Samudaya Bhavana Rammurthynagar",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560016,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c053a5e4-2959-4699-8387-6cc2099e6cb8",
+          "date": "23-05-2021",
+          "available_capacity": 20,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 20,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418528,
+      "name": "Vishwanatha Nagenahalli UPHC",
+      "address": "Kenchappa Garden Chamundi Nagar Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560052,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "29a3d248-1eea-4a49-98fb-399f30071cde",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418566,
+      "name": "Govindrajnagar UPHC",
+      "address": "7th Main Nagarbhavi Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560079,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "23d800ee-1b9a-4146-83fb-ff2e97807f4f",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 629550,
+      "name": "PUTTENAHALLI BBMP WARD OFFICE",
+      "address": " 4th Main Rd BOB Colony JP Nagar 7th Phase J. P. Nagar Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560078,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "92e1eb0e-a6e6-42b6-904a-c650b9943506",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 705785,
+      "name": "Bagalgunte Uphc Covaxin",
+      "address": "Vigneshwara Layout Bagalakunte Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Dasarahalli",
+      "pincode": 560073,
+      "lat": 13,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4c355663-469c-4bd1-9899-052c1edd6fbc",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418395,
+      "name": "Murphy Town UPHC",
+      "address": "Nala Road Murphy Town",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560008,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "906beedb-a951-4f0e-aab1-9b9dbb80cfd8",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418613,
+      "name": "Ulsoor UPHC 1",
+      "address": "Cambridge Road Ulsoor Refferal Hospital Ulsoor",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560008,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "26b5fc35-21d1-4f2d-855c-d4cc9d149b17",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 565284,
+      "name": "Sanjay Nagar UPHC",
+      "address": "Sanjay Nagar Main Road Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560094,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a6d0783d-ce34-47e0-8eb0-73b6b80ab940",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 407052,
+      "name": "Mallathahalli UPHC",
+      "address": "Kengeri Main Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "DASRAHALLI",
+      "pincode": 560056,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fb2d3c4c-dfb8-4358-a2e7-232977aa1fad",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 421826,
+      "name": "MoodalaPalya UPHC",
+      "address": "1st MainPanchasheela Nagaraa",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560040,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7ab49ff2-69d7-4cb7-b17c-441596d63a77",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 587032,
+      "name": "YASHAVANTHPUR UPHC",
+      "address": "Yeshwantpur Uphc Model Colony Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560022,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "576ebbf5-2a4d-45dc-8c35-7f8992c26483",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 704572,
+      "name": "HONGASANDRA GOVT SCHOOL",
+      "address": "SR Naidu Layout Maruti Layout Hongsandra",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560068,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "079ab36a-1959-4257-8298-fe8492d6b7a4",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 500229,
+      "name": "R C Pura UPHC",
+      "address": "Near Srirmpur Refferal Hospital",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560021,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1bb0608b-75e4-4ee4-9814-86a0f31c4cfe",
+          "date": "23-05-2021",
+          "available_capacity": 44,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 19,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 418361,
+      "name": "Old BYAPANAHALI UPHC (GVT SCH)",
+      "address": "B CHANNASANDRA GOVT SCHOOL NEAR AMAX SUPER MARKET",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560043,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "0f22bd54-2a61-4163-a89e-ee935e4cf0cf",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 561049,
+      "name": "HAGADURU UPHC P3",
+      "address": "Sub Center, Immadihalli Circle- Immadihalli-56066",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Mahadevapura",
+      "pincode": 560066,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fcee05af-e99f-4310-8836-6c169c5254ee",
+          "date": "23-05-2021",
+          "available_capacity": 33,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 33,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 422063,
+      "name": "M R Palya UPHC",
+      "address": "M R Palya J C Nagaraa",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560006,
+      "lat": 13,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "893e1a8c-b023-4001-ba71-7ad948042498",
+          "date": "23-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 418336,
+      "name": "Panthara Palya UPHC",
+      "address": "Near Nayandanahalli Post Office",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560039,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7297420e-13aa-425e-a023-28bd429b51a7",
+          "date": "23-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        }
+      ]
+    },
+    {
+      "center_id": 565285,
+      "name": "Mallige Hospital Block 1",
+      "address": "Crescent Rd Madhava Nagar Gandhi Nagar Bengaluru",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "3e93a177-216e-42a0-a2bd-56dc60c625de",
+          "date": "24-05-2021",
+          "available_capacity": 50,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 50
+        },
+        {
+          "session_id": "bb42119a-d57c-49f3-852d-840b10fc584d",
+          "date": "25-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "06380e3e-3138-4f6d-8c22-59e72feaf490",
+          "date": "26-05-2021",
+          "available_capacity": 25,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 25
+        },
+        {
+          "session_id": "7563129f-8714-4bec-ad63-d0393a2dea88",
+          "date": "27-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 23
+        },
+        {
+          "session_id": "9881d161-7cc8-4d97-9e49-94d030861a17",
+          "date": "28-05-2021",
+          "available_capacity": 24,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 24
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "1050"
+        }
+      ]
+    },
+    {
+      "center_id": 558362,
+      "name": "Ramaiah Memorial Hospital FF1",
+      "address": "M S Ramaiah Nagar MSRIT Post Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560054,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "12:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "c36b575e-6fe0-4dac-bb1c-f95f91358211",
+          "date": "24-05-2021",
+          "available_capacity": 125,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-12:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 125
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 604421,
+      "name": "Columbia Asia Sarjapur P3",
+      "address": "Columbia Asia Hospital -Sarjapur Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560103,
+      "lat": 12,
+      "long": 77,
+      "from": "09:30:00",
+      "to": "15:30:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "d2bb237d-5075-4261-ae26-4ba27c314420",
+          "date": "24-05-2021",
+          "available_capacity": 15,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:30AM-10:30AM",
+            "10:30AM-11:30AM",
+            "11:30AM-12:30PM",
+            "12:30PM-03:30PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 15
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 572134,
+      "name": "APOLLO CRADLE - Koramangala",
+      "address": "18th Main Road 58 Pipe Line Rd Near Anand Sweets 6th Block Koramangala",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560030,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "14:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "5c90b623-55b7-44a1-99de-b72ac9f02078",
+          "date": "24-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 579419,
+      "name": "St Johns Hospital",
+      "address": "Sarjapura Road",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560034,
+      "lat": 12,
+      "long": 77,
+      "from": "11:00:00",
+      "to": "15:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "293ba589-5d25-4bbf-bd34-9ac354b48904",
+          "date": "24-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "9f30912f-fbf8-4422-822e-2146bec57a3b",
+          "date": "24-05-2021",
+          "available_capacity": 10,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 10
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 566035,
+      "name": "APOLLO HOSPITAL 1",
+      "address": "Imperial Hospital Research Centre Limited",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "Bommanahalli",
+      "pincode": 560076,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "d6b77692-2eed-4914-88b9-5dd0643a2813",
+          "date": "24-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "850"
+        }
+      ]
+    },
+    {
+      "center_id": 570844,
+      "name": "JAIN BLOCK 2",
+      "address": "MILLERS ROAD VASANTANAGAR",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "ee735f5d-4062-410d-b964-3fe81585e7ec",
+          "date": "24-05-2021",
+          "available_capacity": 5,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 5
+        },
+        {
+          "session_id": "d61038c7-dca0-47b2-892a-6dfedfee3ed8",
+          "date": "25-05-2021",
+          "available_capacity": 4,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 4
+        },
+        {
+          "session_id": "c7c20439-2a05-460d-b8fa-7cf96db1fc58",
+          "date": "26-05-2021",
+          "available_capacity": 1,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 1
+        },
+        {
+          "session_id": "eb767831-5c1d-40b1-9ede-642b251e5a7c",
+          "date": "27-05-2021",
+          "available_capacity": 3,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 3
+        },
+        {
+          "session_id": "b22f0f3e-ea0d-49c6-9f1b-d46fb3f0d72d",
+          "date": "28-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 559554,
+      "name": "MALLIGE HOSPITAL (18-44)",
+      "address": "31 And 32 Crescent Road Madhavanagar Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "East",
+      "pincode": 560001,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "18:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "a0f772dd-f6f3-4edb-8dbd-d06187c85619",
+          "date": "24-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        },
+        {
+          "session_id": "d198d27d-432b-4339-809b-8c11e3d8e707",
+          "date": "25-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ],
+      "vaccine_fees": [
+        {
+          "vaccine": "COVISHIELD",
+          "fee": "1050"
+        }
+      ]
+    },
+    {
+      "center_id": 558075,
+      "name": "Kangaroo Care Hospital",
+      "address": "No.89, MC Layout, Vijaynagar, Bangalore",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560079,
+      "lat": 12,
+      "long": 77,
+      "from": "14:00:00",
+      "to": "16:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "2c5fc924-27f1-4ce0-bbeb-e5ef56c59eae",
+          "date": "26-05-2021",
+          "available_capacity": 2,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 2
+        },
+        {
+          "session_id": "a1cc489c-2bc4-4c1e-89a3-b2247d1874e4",
+          "date": "27-05-2021",
+          "available_capacity": 2,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 2
+        },
+        {
+          "session_id": "8fe08655-3faf-447f-9dc4-1df067b341d0",
+          "date": "28-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-04:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 559741,
+      "name": "BANASHANKARI UFWC",
+      "address": "Near Banashankari",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "South",
+      "pincode": 560085,
+      "lat": 12,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "33c8dfd2-03c2-46e4-a896-a0cdd0952791",
+          "date": "26-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    },
+    {
+      "center_id": 688954,
+      "name": "Mahila Womens Health Care",
+      "address": "17th Cross, Magadi Chord Road, Vijayanagar, Marenahalli, Near Maruti Mandira",
+      "state_name": "Karnataka",
+      "district_name": "BBMP",
+      "block_name": "West",
+      "pincode": 560040,
+      "lat": 12,
+      "long": 77,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Paid",
+      "sessions": [
+        {
+          "session_id": "00917c17-697a-45fe-addd-1c8bd0645686",
+          "date": "26-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+    }
+  ]
+}

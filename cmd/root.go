@@ -65,7 +65,9 @@ func initConfig() {
 
     // Search config in home directory with name ".jabfinder" (without extension).
     viper.AddConfigPath(home)
+    viper.AddConfigPath(".")
     viper.SetConfigName(".jabfinder")
+    viper.SetConfigType("yaml")
   }
 
   viper.AutomaticEnv() // read in environment variables that match
