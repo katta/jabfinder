@@ -37,6 +37,18 @@ func buildStatesQuery() string {
 	return query.String()
 }
 
+func buildDistrictsQuery(stateCode int) string {
+	cowinUrl := viper.GetString("cowin.baseurl")
+	districtsPath := viper.GetString("cowin.districtsPath")
+
+	query, err := url.Parse(fmt.Sprintf("%s%s/%d",cowinUrl, districtsPath, stateCode))
+	exitOnError(err)
+
+	log.Printf("Using Query: %v", query.String())
+	return query.String()
+}
+
+
 func exitOnError(err error) {
 	if err != nil {
 		log.Fatal(err)

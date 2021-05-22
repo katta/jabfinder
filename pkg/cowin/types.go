@@ -37,3 +37,12 @@ type State struct {
 	Name string `json:"state_name"`
 	Code int    `json:"state_id"`
 }
+
+type DistrictsResponse struct {
+	Districts []District
+}
+
+type District struct {
+	Name string `json:"district_name"`
+	Code int    `json:"district_id"`
+}

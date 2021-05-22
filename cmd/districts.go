@@ -16,36 +16,22 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
-
+	"github.com/katta/jabfinder/pkg/cowin"
 	"github.com/spf13/cobra"
 )
 
 // districtsCmd represents the districts command
 var districtsCmd = &cobra.Command{
 	Use:   "districts",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Lists the districts in the given state",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("districts called")
+		stateCode, _ := cmd.Flags().GetInt("stateCode")
+		cowin.ListDistricts(stateCode)
 	},
 }
 
 func init() {
 	rootCmd.AddCommand(districtsCmd)
 
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// districtsCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// districtsCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	districtsCmd.Flags().IntP("stateCode", "s", 0, "State code. Use states command to find one")
 }
