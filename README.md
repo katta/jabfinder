@@ -40,14 +40,19 @@ For detailed usage of all commands in `jabfinder` checkout [docs](./docs)
 
 Refer the following examples to know how to use this utility 
 ```
+## Replace districtCode with the district you are searching for. Check this doc below on how to find the district code.
+
 ## For 18 years and dosage 1
 ./jabfinder check -d <districtCode> -a 18 -e 1
-
 
 ## For 45 years and dosage 2
 ./jabfinder check -d <districtCode> -a 45 -e 2
 
-## Replace districtCode with the district you are searching for 
+## For checking continuousy use the "--notify" flag. The  command will check for availability every 10 seconds by default. 
+./jabfinder check -d <districtCode> -a 45 -e 2 --notify
+
+## You can change the duration between checks by providing the interval in the command as shown below.
+JABF_NOTIFY_INTERVALINSECONDS=20 ./jabfinder check -d <districtCode> -a 45 -e 2 --notify 
 ```
 
 #### Sample Response
