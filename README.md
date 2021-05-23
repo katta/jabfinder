@@ -111,7 +111,26 @@ Find the code to the corresponding district you want to check availability for a
 
 ### Using Docker
 
-#### Building 
+You would have to pass environment variables for SMTP config.
+
+Create a `.env-file` locally with the following and replace the values accordingly
+   
+```
+JABF_NOTIFY_INTERVALINSECONDS=300
+JABF_SMTP_EMAIL=abc@xyz.com
+JABF_SMTP_PASSWORD=xxx
+JABF_NOTIFY_TOEMAIL=abc@xyz.com
+```  
+
+#### 1. Using published image
+
+Pulls the image from [dockerhub](https://hub.docker.com/repository/docker/vatsakatta/jabfinder)
+
+```
+docker run -it --name jabfinder --env-file=.env-file vatsakatta/jabfinder:1.0.0 ./jabfinder check -d 294 -a 18 -e 1 -n
+```
+
+#### 2. Building Locally
 
 You can build the docker image using the following command
 
@@ -119,29 +138,18 @@ You can build the docker image using the following command
 docker build . -t jabfinder
 ```
 
-#### Running
+#### 3. Running Local Build
 
 Run the docker image built using above command with the necessary parameters 
 
-1. You would have to pass environment variables for SMTP config.
-
-   Create a `.env-file` locally with the following and replace the values accordingly
-   
-    ```
-    JABF_NOTIFY_INTERVALINSECONDS=300
-    JABF_SMTP_EMAIL=abc@xyz.com
-    JABF_SMTP_PASSWORD=xxx
-    JABF_NOTIFY_TOEMAIL=abc@xyz.com
-    ```  
-   
-2. Pass in the command arguments along with `docker run`
+1. Pass in the command arguments along with `docker run`
    ```
    docker run -d --name jabfinder --env-file=.env-file jabfinder:latest ./jabfinder check -d 294 -a 18 -e 1 -n
   
    ## The above command will check for open slots every 5 minutes for the age limit > 18 and dose 1 and sends a mail to abc@xyz.com
    ```
    
-3. Verify if the jabfinder is running in docker using the logs
+2. Verify if the jabfinder is running in docker using the logs
 
     ```
     docker logs -f jabfinder    
