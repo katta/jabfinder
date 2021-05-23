@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
-	"github.com/katta/jabfinder/pkg/mailer"
+	"github.com/katta/jabfinder/pkg/notifiers"
 	"github.com/katta/jabfinder/pkg/table"
 	"github.com/spf13/viper"
 	"io/ioutil"
@@ -26,7 +26,7 @@ func CheckAvailability(filters *Filters, notify bool) {
 			for {
 				availability := checkVaccineAvailability(filters)
 				if availability != nil {
-					mailer.SendMail(createEmail(), smtpConfig())
+					notifiers.SendMail(createEmail(), smtpConfig())
 				}
 				interval := viper.GetInt("notify.intervalInSeconds")
 				color.Set(color.FgHiGreen)
@@ -41,8 +41,8 @@ func CheckAvailability(filters *Filters, notify bool) {
 	}
 }
 
-func smtpConfig() mailer.SMTP {
-	return mailer.SMTP{
+func smtpConfig() notifiers.SMTP {
+	return notifiers.SMTP{
 		Host:     viper.GetString("smtp.host"),
 		Port:     viper.GetInt("smtp.port"),
 		Email:    viper.GetString("smtp.email"),
@@ -50,8 +50,8 @@ func smtpConfig() mailer.SMTP {
 	}
 }
 
-func createEmail() mailer.EMail {
-	return mailer.EMail{
+func createEmail() notifiers.EMail {
+	return notifiers.EMail{
 		From:    "JabFinder <jabfinderindia@gmail.com>",
 		To:      viper.GetString("notify.toEmail"),
 		Subject: "Vaccination Slot Availability",
