@@ -2,6 +2,8 @@ package cmd
 
 import (
   "fmt"
+  "github.com/spf13/cobra/doc"
+  "log"
   "os"
   "github.com/spf13/cobra"
   "strings"
@@ -13,6 +15,7 @@ import (
 
 
 var cfgFile string
+var genDoc bool
 
 
 // rootCmd represents the base command when called without any subcommands
@@ -33,6 +36,14 @@ func Execute() {
     fmt.Println(err)
     os.Exit(1)
   }
+
+  if genDoc {
+    err := doc.GenMarkdownTree(rootCmd, "./docs/")
+    if err != nil {
+      log.Fatal(err)
+    }
+  }
+
 }
 
 func init() {
@@ -43,7 +54,7 @@ func init() {
   // will be global for your application.
 
   rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.jabfinder.yaml)")
-
+  rootCmd.PersistentFlags().BoolVar(&genDoc, "generateDoc", false, "Set to true to generate Documents (Must be run from SCM cloned location")
 
   // Cobra also supports local flags, which will only run
   // when this action is called directly.
