@@ -15,6 +15,7 @@ type Center struct {
 }
 
 type Session struct {
+	ID                     string `json:"session_id"`
 	Date                   string
 	AvailableCapacity      int `json:"available_capacity"`
 	AvailableCapacityDose1 int `json:"available_capacity_dose1"`

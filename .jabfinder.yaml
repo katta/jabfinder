@@ -6,3 +6,10 @@ cowin:
 
 notify:
   intervalInSeconds: 10
+  toEmail: ""
+
+smtp:
+  host: "smtp.gmail.com"
+  port: 465
+  email: ""
+  password: ""

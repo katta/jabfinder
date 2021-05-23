@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
+	"github.com/katta/jabfinder/pkg/mailer"
 	"github.com/katta/jabfinder/pkg/table"
 	"github.com/spf13/viper"
 	"io/ioutil"
@@ -23,7 +24,10 @@ func CheckAvailability(filters *Filters, notify bool) {
 	if notify {
 		go func() {
 			for {
-				checkVaccineAvailability(filters)
+				availability := checkVaccineAvailability(filters)
+				if availability != nil {
+					mailer.SendMail(createEmail(), smtpConfig())
+				}
 				interval := viper.GetInt("notify.intervalInSeconds")
 				color.Set(color.FgHiGreen)
 				log.Printf("Will check again in %v seconds.. \n", interval)
@@ -37,7 +41,25 @@ func CheckAvailability(filters *Filters, notify bool) {
 	}
 }
 
-func checkVaccineAvailability(filters *Filters) {
+func smtpConfig() mailer.SMTP {
+	return mailer.SMTP{
+		Host:     viper.GetString("smtp.host"),
+		Port:     viper.GetInt("smtp.port"),
+		Email:    viper.GetString("smtp.email"),
+		Password: viper.GetString("smtp.password"),
+	}
+}
+
+func createEmail() mailer.EMail {
+	return mailer.EMail{
+		From:    "JabFinder <jabfinderindia@gmail.com>",
+		To:      viper.GetString("notify.toEmail"),
+		Subject: "Vaccination Slot Availability",
+		Body:    "Here you go again !!",
+	}
+}
+
+func checkVaccineAvailability(filters *Filters) [][]string {
 	client := &http.Client{Timeout: 60 & time.Second}
 	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode), nil)
 	exitOnError(err)
@@ -47,7 +69,7 @@ func checkVaccineAvailability(filters *Filters) {
 	response, err := client.Do(request)
 	if err != nil {
 		log.Printf("Error while checking availability on cowin: %+v", err)
-		return
+		return nil
 	}
 
 	if response.StatusCode == http.StatusOK {
@@ -55,7 +77,7 @@ func checkVaccineAvailability(filters *Filters) {
 		body, err := ioutil.ReadAll(response.Body)
 		if err != nil {
 			log.Printf("Error while reading the response from cowin: %+v", err)
-			return
+			return nil
 		}
 		//log.Printf("Response: %v", string(body))
 
@@ -63,10 +85,11 @@ func checkVaccineAvailability(filters *Filters) {
 		err = json.Unmarshal(body, &cowinResponse)
 		exitOnError(err)
 
-		printAvailability(cowinResponse, filters)
+		return printAvailability(cowinResponse, filters)
 	} else {
 		log.Printf("Cowin responded with status code %v", response.StatusCode)
 	}
+	return nil
 }
 
 func onError(err error, notify bool) bool {
@@ -81,7 +104,7 @@ func onError(err error, notify bool) bool {
 	return false
 }
 
-func printAvailability(response CowinResponse, filters *Filters) {
+func printAvailability(response CowinResponse, filters *Filters) [][]string {
 	headers := []string{"Date", "Vaccine", "Dose 1", "Dose 2", "Center", "Address"}
 	rows := [][]string{}
 
@@ -102,6 +125,7 @@ func printAvailability(response CowinResponse, filters *Filters) {
 	}
 
 	table.Render(headers, rows, []string{}, true)
+	return rows
 }
 
 func appendCenter(center Center, session Session, rows [][]string) [][]string {
