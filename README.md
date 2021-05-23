@@ -38,11 +38,11 @@ Global Flags:
 Refer the following examples to know how to use this utility 
 ```
 ## For 18 years and dosage 1
-./jabfinder -d <districtCode> -a 18 -e 1
+./jabfinder check -d <districtCode> -a 18 -e 1
 
 
 ## For 45 years and dosage 2
-./jabfinder -d <districtCode> -a 45 -e 2
+./jabfinder check -d <districtCode> -a 45 -e 2
 
 ## Replace districtCode with the district you are searching for 
 ```
