@@ -24,8 +24,10 @@ func CheckAvailability(filters *Filters, notify bool) {
 	if notify {
 		go func() {
 			for {
-				availableCenters := retrieveAvailableSessions(filters)
-				if availableCenters != nil {
+				availableSessions := retrieveAvailableSessions(filters)
+				printToConsole(availableSessions)
+
+				if availableSessions != nil {
 					//notifiers.SendMail(createEmail(), smtpConfig())
 				}
 				interval := viper.GetInt("notify.intervalInSeconds")
@@ -37,7 +39,8 @@ func CheckAvailability(filters *Filters, notify bool) {
 		}()
 		<-exit
 	} else {
-		retrieveAvailableSessions(filters)
+		availableSessions := retrieveAvailableSessions(filters)
+		printToConsole(availableSessions)
 	}
 }
 
@@ -85,14 +88,14 @@ func retrieveAvailableSessions(filters *Filters) []FlatSession {
 		err = json.Unmarshal(body, &cowinResponse)
 		exitOnError(err)
 
-		return filterAndPrint(cowinResponse, filters)
+		return filterAvailableSessions(cowinResponse, filters)
 	} else {
 		log.Printf("Cowin responded with status code %v", response.StatusCode)
 	}
 	return nil
 }
 
-func filterAndPrint(response CowinResponse, filters *Filters) []FlatSession {
+func filterAvailableSessions(response CowinResponse, filters *Filters) []FlatSession {
 	flatSessions := []FlatSession{}
 
 	for _, center := range response.Centers {
@@ -108,8 +111,6 @@ func filterAndPrint(response CowinResponse, filters *Filters) []FlatSession {
 			}
 		}
 	}
-
-	printToConsole(flatSessions)
 
 	return flatSessions
 }

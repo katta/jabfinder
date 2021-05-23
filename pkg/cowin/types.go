@@ -29,7 +29,7 @@ type FlatSession struct {
 	CenterName             string
 	CenterAddress          string
 	CenterDistrict         string
-	CenterPincode          string
+	CenterPincode          int
 	SessionId              string
 	SessionDate            string
 	AvailableCapacityDose1 int
@@ -67,7 +67,7 @@ func flatSessionsFrom(center Center, session Session) FlatSession {
 		CenterName:             center.Name,
 		CenterAddress:          center.Address,
 		CenterDistrict:         center.District,
-		CenterPincode:          center.District,
+		CenterPincode:          center.Pincode,
 		SessionId:              session.ID,
 		SessionDate:            session.Date,
 		AvailableCapacityDose1: session.AvailableCapacityDose1,
