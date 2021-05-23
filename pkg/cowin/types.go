@@ -25,6 +25,19 @@ type Session struct {
 	Slots                  []string
 }
 
+type FlatSession struct {
+	CenterName             string
+	CenterAddress          string
+	CenterDistrict         string
+	CenterPincode          string
+	SessionId              string
+	SessionDate            string
+	AvailableCapacityDose1 int
+	AvailableCapacityDose2 int
+	Vaccine                string
+	Slots                  string
+}
+
 type Filters struct {
 	Age          int
 	Dose         int
@@ -48,3 +61,18 @@ type District struct {
 	Name string `json:"district_name"`
 	Code int    `json:"district_id"`
 }
+
+func flatSessionsFrom(center Center, session Session) FlatSession {
+	return FlatSession{
+		CenterName:             center.Name,
+		CenterAddress:          center.Address,
+		CenterDistrict:         center.District,
+		CenterPincode:          center.District,
+		SessionId:              session.ID,
+		SessionDate:            session.Date,
+		AvailableCapacityDose1: session.AvailableCapacityDose1,
+		AvailableCapacityDose2: session.AvailableCapacityDose2,
+		Vaccine:                session.Vaccine,
+	}
+}
+

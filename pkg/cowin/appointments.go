@@ -24,9 +24,9 @@ func CheckAvailability(filters *Filters, notify bool) {
 	if notify {
 		go func() {
 			for {
-				availability := checkVaccineAvailability(filters)
-				if availability != nil {
-					notifiers.SendMail(createEmail(), smtpConfig())
+				availableCenters := retrieveAvailableSessions(filters)
+				if availableCenters != nil {
+					//notifiers.SendMail(createEmail(), smtpConfig())
 				}
 				interval := viper.GetInt("notify.intervalInSeconds")
 				color.Set(color.FgHiGreen)
@@ -37,7 +37,7 @@ func CheckAvailability(filters *Filters, notify bool) {
 		}()
 		<-exit
 	} else {
-		checkVaccineAvailability(filters)
+		retrieveAvailableSessions(filters)
 	}
 }
 
@@ -59,7 +59,7 @@ func createEmail() notifiers.EMail {
 	}
 }
 
-func checkVaccineAvailability(filters *Filters) [][]string {
+func retrieveAvailableSessions(filters *Filters) []FlatSession {
 	client := &http.Client{Timeout: 60 & time.Second}
 	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode), nil)
 	exitOnError(err)
@@ -85,57 +85,55 @@ func checkVaccineAvailability(filters *Filters) [][]string {
 		err = json.Unmarshal(body, &cowinResponse)
 		exitOnError(err)
 
-		return printAvailability(cowinResponse, filters)
+		return filterAndPrint(cowinResponse, filters)
 	} else {
 		log.Printf("Cowin responded with status code %v", response.StatusCode)
 	}
 	return nil
 }
 
-func onError(err error, notify bool) bool {
-	if err != nil {
-		log.Printf("Error while checking availability on cowin: %+v", err)
-		if !notify {
-			exit <- true
-		} else {
-			return true
-		}
-	}
-	return false
-}
-
-func printAvailability(response CowinResponse, filters *Filters) [][]string {
-	headers := []string{"Date", "Vaccine", "Dose 1", "Dose 2", "Center", "Address"}
-	rows := [][]string{}
-
-	log.Printf("Filters: %+v", filters)
+func filterAndPrint(response CowinResponse, filters *Filters) []FlatSession {
+	flatSessions := []FlatSession{}
 
 	for _, center := range response.Centers {
 		for _, session := range center.Sessions {
 			if session.AvailableCapacity > 0 && session.MinAge == filters.Age {
 				if filters.Dose == 1 && session.AvailableCapacityDose1 > 0 {
-					rows = appendCenter(center, session, rows)
+					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
 				} else if filters.Dose == 2 && session.AvailableCapacityDose2 > 0 {
-					rows = appendCenter(center, session, rows)
+					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
 				} else if filters.Dose == 0 {
-					rows = appendCenter(center, session, rows)
+					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
 				}
 			}
 		}
 	}
 
-	table.Render(headers, rows, []string{}, true)
-	return rows
+	printToConsole(flatSessions)
+
+	return flatSessions
 }
 
-func appendCenter(center Center, session Session, rows [][]string) [][]string {
-	address := fmt.Sprintf("%s, %d", center.Address, center.Pincode)
-	row := []string{session.Date,
-		session.Vaccine,
-		strconv.Itoa(session.AvailableCapacityDose1),
-		strconv.Itoa(session.AvailableCapacityDose2),
+
+func printToConsole(flatSessions []FlatSession) {
+	headers := []string{"Date", "Vaccine", "Dose 1", "Dose 2", "Center", "Address"}
+	rows := [][]string{}
+
+	for _, fSession := range flatSessions {
+		rows = toTableRow(fSession, rows)
+	}
+
+	table.Render(headers, rows, []string{}, true)
+}
+
+func toTableRow(flatSession FlatSession, rows [][]string) [][]string {
+	address := fmt.Sprintf("%s, %d", flatSession.CenterAddress, flatSession.CenterPincode)
+	row := []string{flatSession.SessionDate,
+		flatSession.Vaccine,
+		strconv.Itoa(flatSession.AvailableCapacityDose1),
+		strconv.Itoa(flatSession.AvailableCapacityDose2),
 		//strings.Join(session.Slots[:], ","),
-		center.Name,
+		flatSession.CenterName,
 		address,
 	}
 	rows = append(rows, row)
