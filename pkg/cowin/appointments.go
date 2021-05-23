@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
+	"github.com/katta/jabfinder/pkg/db"
 	"github.com/katta/jabfinder/pkg/models"
 	"github.com/katta/jabfinder/pkg/notifiers"
 	"github.com/katta/jabfinder/pkg/table"
@@ -28,7 +29,11 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 				availableSessions := retrieveAvailableSessions(filters)
 
 				printToConsole(availableSessions)
-				notifyByEmail(availableSessions)
+
+				newSessions := db.Register(availableSessions)
+				if len(newSessions) > 0 {
+					notifyByEmail(newSessions)
+				}
 
 				interval := viper.GetInt("notify.intervalInSeconds")
 				color.Set(color.FgHiGreen)
@@ -45,13 +50,13 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 	}
 }
 
-func notifyByEmail(availableSessions []models.FlatSession) {
-	if availableSessions != nil {
-		mailer := notifiers.Mailer{
+func notifyByEmail(sessions []models.FlatSession) {
+	if sessions != nil {
+		mailer := &notifiers.Mailer{
 			EMail: emailConfig(),
 			SMTP:  smtpConfig(),
 		}
-		mailer.Notify(availableSessions)
+		mailer.Notify(sessions)
 	}
 }
 

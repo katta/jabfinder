@@ -1,9 +1,13 @@
 package notifiers
 
 import (
+	"bytes"
 	"fmt"
 	"github.com/katta/jabfinder/pkg/models"
 	gomail "gopkg.in/mail.v2"
+	"html/template"
+	"log"
+	"path"
 )
 
 type EMail struct {
@@ -25,15 +29,16 @@ type Mailer struct {
 	SMTP
 }
 
-func SendMail(email EMail, smtpConfig SMTP) {
+func (m *Mailer) SendMail(body string) {
 	message := gomail.NewMessage()
 
-	message.SetHeader("From", email.From)
-	message.SetHeader("To", email.To)
-	message.SetHeader("Subject", email.Subject)
-	message.SetBody("text/plain", email.Body)
+	message.SetHeader("From", m.From)
+	message.SetHeader("To", m.To)
+	message.SetHeader("Subject", m.Subject)
+	message.SetBody("text/html", body)
 
-	dialer := gomail.NewDialer(smtpConfig.Host, smtpConfig.Port, smtpConfig.Email, smtpConfig.Password)
+	fmt.Printf("Sending mailer with config: Email: %s, Password: %s \n", m.Email, m.Password)
+	dialer := gomail.NewDialer(m.Host, m.Port, m.Email, m.Password)
 	dialer.SSL = true
 
 	err := dialer.DialAndSend(message)
@@ -42,6 +47,24 @@ func SendMail(email EMail, smtpConfig SMTP) {
 	}
 }
 
-func (m Mailer) Notify(availableSessions []models.FlatSession) {
-	fmt.Println("Sending mailer notification")
+func (m *Mailer) Notify(sessions []models.FlatSession) {
+	//fmt.Printf("Sending mailer notification for sessions: %+v \n", sessions)
+
+	var body bytes.Buffer
+
+	emailTempl, err := template.ParseFiles(path.Join(".", "templates", "mail-notification.html"))
+	if err != nil {
+		log.Printf("Error parsing email template: %v", err)
+		return
+	}
+
+	emailTempl.Execute(&body, struct {
+		Message  string
+		Sessions []models.FlatSession
+	}{
+		Message:  "Vaccines are available in the following centers :",
+		Sessions: sessions,
+	})
+
+	m.SendMail(body.String())
 }
