@@ -70,6 +70,26 @@ JABF_NOTIFY_INTERVALINSECONDS=20 ./jabfinder check -d <districtCode> -a 45 -e 2 
 +------------+------------+--------+--------+-------------------------------+--------------------------------+
 ```
 
+### Sending email notifications
+
+You could use this tool to send you a email notification as and when the new slots are available. Use the following commands to set it up.
+
+1. Uses Google's smtp server by default `smtp.google.com`
+2. You should have your email (gmail) and password from which you would want to trigger an email from
+3. You should provide the email to which you want to trigger notification to
+4. Setup these details as environment variables as shown below
+
+```
+export JABF_SMTP_EMAIL=jabfinderindia@gmail.com  # Replace the email with your email
+export JABF_SMTP_PASSWORD=xxx                    # Replace xxx with the password
+export JABF_NOTIFY_TOEMAIL=abc@xyz.com           # Replace abc@xyz.com to the email to which you want to send notifications to
+
+# Runt he following command in the same shell where you have set these environment variables
+
+./jabfinder check --districtCode 294 --age 45 --notify
+```
+> You may face errors sending email based on your smtp email account settings. Please check the Google's [documentation](https://support.google.com/mail/answer/7126229) to enable the use of SMTP on your email based on your preferences.
+
 ### Finding district code
 
 You will have to first know the state code you are searching for. You can find the state code by running the following command.
