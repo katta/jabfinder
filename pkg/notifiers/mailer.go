@@ -37,7 +37,7 @@ func (m *Mailer) SendMail(body string) {
 	message.SetHeader("Subject", m.Subject)
 	message.SetBody("text/html", body)
 
-	fmt.Printf("Sending mailer with config: Email: %s, Password: %s \n", m.Email, m.Password)
+	//fmt.Printf("Sending mailer with config: Email: %s, Password: %s \n", m.Email, m.Password)
 	dialer := gomail.NewDialer(m.Host, m.Port, m.Email, m.Password)
 	dialer.SSL = true
 
