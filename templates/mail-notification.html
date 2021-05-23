@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
 <body>
-<span>{{.Message}}</span><br/>
+<div>{{.Message}}</div>
+
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Vaccine</th>
+        <th>Dose 1</th>
+        <th>Dose 2</th>
+        <th>Center</th>
+        <th>Address</th>
+
+    </tr>
+    {{range .Sessions}}
+        <tr>
+            <td>{{.SessionDate}}</td>
+            <td>{{.Vaccine}}</td>
+            <td>{{.AvailableCapacityDose1}}</td>
+            <td>{{.AvailableCapacityDose2}}</td>
+            <td>{{.CenterName}}</td>
+            <td>{{.CenterAddress}}</td>
+        </tr>
+    {{end}}
+</table>
 </body>
 </html>

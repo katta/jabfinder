@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"github.com/katta/jabfinder/pkg/cowin"
+	"github.com/katta/jabfinder/pkg/models"
 	"github.com/spf13/cobra"
 )
 
@@ -15,7 +16,7 @@ var checkCmd = &cobra.Command{
 		dose, _ := cmd.Flags().GetInt("dose")
 		notify, _ := cmd.Flags().GetBool("notify")
 
-		cowin.CheckAvailability(&cowin.Filters{
+		cowin.CheckAvailability(&models.Filters{
 			Age:  age,
 			Dose: dose,
 			DistrictCode: districtCode,

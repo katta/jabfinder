@@ -2,6 +2,7 @@ package cowin
 
 import (
 	"encoding/json"
+	"github.com/katta/jabfinder/pkg/models"
 	"github.com/katta/jabfinder/pkg/table"
 	"io/ioutil"
 	"log"
@@ -27,7 +28,7 @@ func ListDistricts(stateCode int) {
 		exitOnError(err)
 		//log.Printf("Response: %v", string(body))
 
-		var districtsResponse DistrictsResponse
+		var districtsResponse models.DistrictsResponse
 		if err := json.Unmarshal(body, &districtsResponse); err == nil {
 			//log.Printf("Centers: %+v", cowinResponse.Centers)
 			printDistricts(districtsResponse)
@@ -59,7 +60,7 @@ func ListStates() {
 		exitOnError(err)
 		//log.Printf("Response: %v", string(body))
 
-		var statesResponse StatesResponse
+		var statesResponse models.StatesResponse
 		if err := json.Unmarshal(body, &statesResponse); err == nil {
 			//log.Printf("Centers: %+v", cowinResponse.Centers)
 			printStates(statesResponse)
@@ -72,7 +73,7 @@ func ListStates() {
 	}
 }
 
-func printStates(statesResponse StatesResponse) {
+func printStates(statesResponse models.StatesResponse) {
 	headers := []string{"Name", "Code"}
 	rows := [][]string{}
 
@@ -84,7 +85,7 @@ func printStates(statesResponse StatesResponse) {
 	table.Render(headers, rows, nil, false)
 }
 
-func printDistricts(response DistrictsResponse) {
+func printDistricts(response models.DistrictsResponse) {
 	headers := []string{"Name", "Code"}
 	rows := [][]string{}
 
