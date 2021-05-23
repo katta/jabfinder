@@ -25,8 +25,9 @@ type Session struct {
 }
 
 type Filters struct {
-	Age  int
-	Dose int
+	Age          int
+	Dose         int
+	DistrictCode string
 }
 
 type StatesResponse struct {

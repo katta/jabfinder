@@ -4,6 +4,7 @@ import (
   "fmt"
   "os"
   "github.com/spf13/cobra"
+  "strings"
 
   homedir "github.com/mitchellh/go-homedir"
   "github.com/spf13/viper"
@@ -66,6 +67,11 @@ func initConfig() {
     // Search config in home directory with name ".jabfinder" (without extension).
     viper.AddConfigPath(home)
     viper.AddConfigPath(".")
+
+    viper.SetEnvPrefix("JABF")
+    replacer := strings.NewReplacer(".", "_")
+    viper.SetEnvKeyReplacer(replacer)
+    viper.AutomaticEnv()
     viper.SetConfigName(".jabfinder")
     viper.SetConfigType("yaml")
   }

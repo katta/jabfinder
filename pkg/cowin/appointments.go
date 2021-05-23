@@ -3,7 +3,9 @@ package cowin
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/fatih/color"
 	"github.com/katta/jabfinder/pkg/table"
+	"github.com/spf13/viper"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -13,35 +15,70 @@ import (
 
 const dateFormat = "02-01-2006"
 
-func CheckAvailability(district string, filters *Filters) {
-	log.Printf("Checking availability for %v, %+v", district, filters)
+var exit = make(chan bool)
 
+func CheckAvailability(filters *Filters, notify bool) {
+	log.Printf("Checking availability for: %+v", filters)
+
+	if notify {
+		go func() {
+			for {
+				checkVaccineAvailability(filters)
+				interval := viper.GetInt("notify.intervalInSeconds")
+				color.Set(color.FgHiGreen)
+				log.Printf("Will check again in %v seconds.. \n", interval)
+				color.Unset()
+				time.Sleep(time.Duration(interval) * time.Second)
+			}
+		}()
+		<-exit
+	} else {
+		checkVaccineAvailability(filters)
+	}
+}
+
+func checkVaccineAvailability(filters *Filters) {
 	client := &http.Client{Timeout: 60 & time.Second}
-	request, err := http.NewRequest("GET", buildAppointmentQuery(district), nil)
+	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode), nil)
 	exitOnError(err)
 
 	request.Header.Add("user-agent", "Mozilla/5.0")
 
 	response, err := client.Do(request)
-	exitOnError(err)
+	if err != nil {
+		log.Printf("Error while checking availability on cowin: %+v", err)
+		return
+	}
 
 	if response.StatusCode == http.StatusOK {
 		defer response.Body.Close()
 		body, err := ioutil.ReadAll(response.Body)
-		exitOnError(err)
+		if err != nil {
+			log.Printf("Error while reading the response from cowin: %+v", err)
+			return
+		}
 		//log.Printf("Response: %v", string(body))
 
 		var cowinResponse CowinResponse
-		if err := json.Unmarshal(body, &cowinResponse); err == nil {
-			//log.Printf("Centers: %+v", cowinResponse.Centers)
-			printAvailability(cowinResponse, filters)
-		} else {
-			exitOnError(err)
-		}
+		err = json.Unmarshal(body, &cowinResponse)
+		exitOnError(err)
 
+		printAvailability(cowinResponse, filters)
 	} else {
 		log.Printf("Cowin responded with status code %v", response.StatusCode)
 	}
+}
+
+func onError(err error, notify bool) bool {
+	if err != nil {
+		log.Printf("Error while checking availability on cowin: %+v", err)
+		if !notify {
+			exit <- true
+		} else {
+			return true
+		}
+	}
+	return false
 }
 
 func printAvailability(response CowinResponse, filters *Filters) {

@@ -3,3 +3,6 @@ cowin:
   appointmentsPath: "appointment/sessions/public/calendarByDistrict"
   statesPath: "admin/location/states"
   districtsPath: "admin/location/districts"
+
+notify:
+  intervalInSeconds: 10
