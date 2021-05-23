@@ -2,6 +2,7 @@ package notifiers
 
 import (
 	"fmt"
+	"github.com/katta/jabfinder/pkg/models"
 	gomail "gopkg.in/mail.v2"
 )
 
@@ -19,6 +20,11 @@ type SMTP struct {
 	Password string
 }
 
+type Mailer struct {
+	EMail
+	SMTP
+}
+
 func SendMail(email EMail, smtpConfig SMTP) {
 	message := gomail.NewMessage()
 
@@ -34,4 +40,8 @@ func SendMail(email EMail, smtpConfig SMTP) {
 	if err != nil {
 		fmt.Printf("Error sending email: %v", err)
 	}
+}
+
+func (m Mailer) Notify(availableSessions []models.FlatSession) {
+	fmt.Println("Sending mailer notification")
 }

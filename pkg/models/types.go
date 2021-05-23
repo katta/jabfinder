@@ -1,4 +1,4 @@
-package cowin
+package models
 
 type CowinResponse struct {
 	Centers []Center `json:"centers"`
@@ -62,7 +62,7 @@ type District struct {
 	Code int    `json:"district_id"`
 }
 
-func flatSessionsFrom(center Center, session Session) FlatSession {
+func FlatSessionsFrom(center Center, session Session) FlatSession {
 	return FlatSession{
 		CenterName:             center.Name,
 		CenterAddress:          center.Address,

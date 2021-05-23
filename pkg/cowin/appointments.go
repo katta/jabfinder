@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
+	"github.com/katta/jabfinder/pkg/models"
 	"github.com/katta/jabfinder/pkg/notifiers"
 	"github.com/katta/jabfinder/pkg/table"
 	"github.com/spf13/viper"
@@ -18,22 +19,22 @@ const dateFormat = "02-01-2006"
 
 var exit = make(chan bool)
 
-func CheckAvailability(filters *Filters, notify bool) {
+func CheckAvailability(filters *models.Filters, notify bool) {
 	log.Printf("Checking availability for: %+v", filters)
 
 	if notify {
 		go func() {
 			for {
 				availableSessions := retrieveAvailableSessions(filters)
-				printToConsole(availableSessions)
 
-				if availableSessions != nil {
-					//notifiers.SendMail(createEmail(), smtpConfig())
-				}
+				printToConsole(availableSessions)
+				notifyByEmail(availableSessions)
+
 				interval := viper.GetInt("notify.intervalInSeconds")
 				color.Set(color.FgHiGreen)
 				log.Printf("Will check again in %v seconds.. \n", interval)
 				color.Unset()
+
 				time.Sleep(time.Duration(interval) * time.Second)
 			}
 		}()
@@ -41,6 +42,16 @@ func CheckAvailability(filters *Filters, notify bool) {
 	} else {
 		availableSessions := retrieveAvailableSessions(filters)
 		printToConsole(availableSessions)
+	}
+}
+
+func notifyByEmail(availableSessions []models.FlatSession) {
+	if availableSessions != nil {
+		mailer := notifiers.Mailer{
+			EMail: emailConfig(),
+			SMTP:  smtpConfig(),
+		}
+		mailer.Notify(availableSessions)
 	}
 }
 
@@ -53,7 +64,7 @@ func smtpConfig() notifiers.SMTP {
 	}
 }
 
-func createEmail() notifiers.EMail {
+func emailConfig() notifiers.EMail {
 	return notifiers.EMail{
 		From:    "JabFinder <jabfinderindia@gmail.com>",
 		To:      viper.GetString("notify.toEmail"),
@@ -62,7 +73,7 @@ func createEmail() notifiers.EMail {
 	}
 }
 
-func retrieveAvailableSessions(filters *Filters) []FlatSession {
+func retrieveAvailableSessions(filters *models.Filters) []models.FlatSession {
 	client := &http.Client{Timeout: 60 & time.Second}
 	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode), nil)
 	exitOnError(err)
@@ -84,7 +95,7 @@ func retrieveAvailableSessions(filters *Filters) []FlatSession {
 		}
 		//log.Printf("Response: %v", string(body))
 
-		var cowinResponse CowinResponse
+		var cowinResponse models.CowinResponse
 		err = json.Unmarshal(body, &cowinResponse)
 		exitOnError(err)
 
@@ -95,18 +106,18 @@ func retrieveAvailableSessions(filters *Filters) []FlatSession {
 	return nil
 }
 
-func filterAvailableSessions(response CowinResponse, filters *Filters) []FlatSession {
-	flatSessions := []FlatSession{}
+func filterAvailableSessions(response models.CowinResponse, filters *models.Filters) []models.FlatSession {
+	flatSessions := []models.FlatSession{}
 
 	for _, center := range response.Centers {
 		for _, session := range center.Sessions {
 			if session.AvailableCapacity > 0 && session.MinAge == filters.Age {
 				if filters.Dose == 1 && session.AvailableCapacityDose1 > 0 {
-					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
+					flatSessions = append(flatSessions, models.FlatSessionsFrom(center, session))
 				} else if filters.Dose == 2 && session.AvailableCapacityDose2 > 0 {
-					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
+					flatSessions = append(flatSessions, models.FlatSessionsFrom(center, session))
 				} else if filters.Dose == 0 {
-					flatSessions = append(flatSessions, flatSessionsFrom(center, session))
+					flatSessions = append(flatSessions, models.FlatSessionsFrom(center, session))
 				}
 			}
 		}
@@ -115,8 +126,7 @@ func filterAvailableSessions(response CowinResponse, filters *Filters) []FlatSes
 	return flatSessions
 }
 
-
-func printToConsole(flatSessions []FlatSession) {
+func printToConsole(flatSessions []models.FlatSession) {
 	headers := []string{"Date", "Vaccine", "Dose 1", "Dose 2", "Center", "Address"}
 	rows := [][]string{}
 
@@ -127,7 +137,7 @@ func printToConsole(flatSessions []FlatSession) {
 	table.Render(headers, rows, []string{}, true)
 }
 
-func toTableRow(flatSession FlatSession, rows [][]string) [][]string {
+func toTableRow(flatSession models.FlatSession, rows [][]string) [][]string {
 	address := fmt.Sprintf("%s, %d", flatSession.CenterAddress, flatSession.CenterPincode)
 	row := []string{flatSession.SessionDate,
 		flatSession.Vaccine,
