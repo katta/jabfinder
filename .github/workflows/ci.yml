@@ -1,0 +1,7 @@
+name: Build and Publish Docker Image
+on: [push]
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "yay ! your ci is up and running"
