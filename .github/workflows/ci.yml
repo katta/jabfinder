@@ -23,6 +23,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: vatsakatta/${{github.repository}}:latest
+          tags: vatsakatta/jabfinder:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
