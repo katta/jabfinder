@@ -9,11 +9,16 @@ RUN go build
 
 
 FROM alpine:3.9
-RUN apk add ca-certificates
 WORKDIR /app
+
+RUN apk add ca-certificates && \
+    apk add tzdata && \
+    rm -rf /var/cache/apk/*
+RUN cp  /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 RUN mkdir -p data
+
 COPY --from=build_base /tmp/jabfinder/templates /app/templates
 COPY --from=build_base /tmp/jabfinder/.jabfinder.yaml /app/
 COPY --from=build_base /tmp/jabfinder/jabfinder /app/jabfinder
 
-CMD ["./jabfinder","check","-d","294","-a","45","-n"]
+CMD ["./jabfinder","-h"]
