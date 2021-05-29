@@ -29,9 +29,11 @@ Flags:
   -e, --dose int              1 or 2 - Dose to filter by (default 1)
   -h, --help                  help for check
   -n, --notify                Notifies via email when the slots are available
+  -v, --vaccine string        COVISHIELD or COVAXIN - vaccine types available (default "COVISHIELD")
 
 Global Flags:
       --config string   config file (default is $HOME/.jabfinder.yaml)
+      --generateDoc     Set to true to generate Documents (Must be run from SCM cloned location
 ```
 
 For detailed usage of all commands in `jabfinder` checkout [docs](./docs)
