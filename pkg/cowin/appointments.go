@@ -13,6 +13,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -116,7 +117,7 @@ func filterAvailableSessions(response models.CowinResponse, filters *models.Filt
 
 	for _, center := range response.Centers {
 		for _, session := range center.Sessions {
-			if session.AvailableCapacity > 0 && session.MinAge == filters.Age {
+			if session.AvailableCapacity > 0 && session.MinAge == filters.Age && strings.EqualFold(session.Vaccine, filters.Vaccine) {
 				if filters.Dose == 1 && session.AvailableCapacityDose1 > 0 {
 					flatSessions = append(flatSessions, models.FlatSessionsFrom(center, session))
 				} else if filters.Dose == 2 && session.AvailableCapacityDose2 > 0 {

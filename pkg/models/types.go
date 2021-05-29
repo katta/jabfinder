@@ -42,6 +42,7 @@ type Filters struct {
 	Age          int
 	Dose         int
 	DistrictCode string
+	Vaccine      string
 }
 
 type StatesResponse struct {
@@ -75,4 +76,3 @@ func FlatSessionsFrom(center Center, session Session) FlatSession {
 		Vaccine:                session.Vaccine,
 	}
 }
-
