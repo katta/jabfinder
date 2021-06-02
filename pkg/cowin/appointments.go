@@ -81,7 +81,13 @@ func emailConfig() notifiers.EMail {
 
 func retrieveAvailableSessions(filters *models.Filters) []models.FlatSession {
 	client := &http.Client{Timeout: 60 & time.Second}
-	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode), nil)
+
+	date := filters.Date
+	if date == "" {
+		date = time.Now().Format(dateFormat)
+	}
+
+	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode, date), nil)
 	exitOnError(err)
 
 	request.Header.Add("user-agent", "Mozilla/5.0")

@@ -10,7 +10,7 @@ import (
 
 const cowinTimeout = 60 & time.Second
 
-func buildAppointmentQuery(district string) string {
+func buildAppointmentQuery(district string, date string) string {
 	cowinUrl := viper.GetString("cowin.baseurl")
 	appointmentsPath := viper.GetString("cowin.appointmentsPath")
 
@@ -19,7 +19,7 @@ func buildAppointmentQuery(district string) string {
 
 	values := url.Values{}
 	values.Set("district_id", district)
-	values.Set("date", time.Now().Format(dateFormat))
+	values.Set("date", date)
 	query.RawQuery = values.Encode()
 
 	log.Printf("Using Query: %v", query.String())

@@ -43,6 +43,7 @@ type Filters struct {
 	Dose         int
 	DistrictCode string
 	Vaccine      string
+	Date         string
 }
 
 type StatesResponse struct {
