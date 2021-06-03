@@ -16,22 +16,42 @@ limitations under the License.
 package cmd
 
 import (
+	"fmt"
 	"github.com/katta/jabfinder/pkg/cowin"
 	"github.com/spf13/cobra"
+	"log"
 )
 
 // districtsCmd represents the districts command
 var districtsCmd = &cobra.Command{
 	Use:   "districts",
-	Short: "Lists the districts in the given state",
+	Short: "Lists valid districts ( asks for state if not provided )",
 	Run: func(cmd *cobra.Command, args []string) {
 		stateCode, _ := cmd.Flags().GetInt("stateCode")
+
+		if stateCode == 0 {
+			stateCode = getStateInputFromUser()
+		}
+
 		cowin.ListDistricts(stateCode)
 	},
+}
+
+func getStateInputFromUser() int {
+	cowin.ListStates()
+
+	fmt.Println("Please enter state id - ")
+	var stateInput int
+	_, err := fmt.Scanln(&stateInput)
+	if err != nil {
+		log.Fatal("Failed to read from std in.")
+	}
+
+	return stateInput
 }
 
 func init() {
 	rootCmd.AddCommand(districtsCmd)
 
-	districtsCmd.Flags().IntP("stateCode", "s", 0, "State code. Use states command to find one")
+	districtsCmd.Flags().IntP("stateCode", "s", 0, "State code. Asks for input if not provided")
 }

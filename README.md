@@ -97,20 +97,15 @@ export JABF_NOTIFY_TOEMAIL=abc@xyz.com           # Replace abc@xyz.com to the em
 > You may face errors sending email based on your smtp email account settings. Please check the Google's [documentation](https://support.google.com/mail/answer/7126229) to enable the use of SMTP on your email based on your preferences.
 
 ### Finding district code
-
-You will have to first know the state code you are searching for. You can find the state code by running the following command.
-
 ```
-./jabfinder states
+./jabfinder districts
+
+This lists all valid states and asks you which state you want to look up districts for
 ```
 
-Use the state code you have identified like this to find the district code you are searching for by running the following command.
+If you already know your state code, you can use - 
 ```
-./jabfinder districts -s <STATECODE>
-
-e.g. for Karnataka
-
-./jabfinder districts -s 16
+./jabfinder districts -s 36
 ```
 
 Find the code to the corresponding district you want to check availability for and use it in the `jabfinder check` command.
