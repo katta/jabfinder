@@ -30,6 +30,7 @@ Flags:
   -h, --help                  help for check
   -n, --notify                Notifies via email when the slots are available
   -v, --vaccine string        COVISHIELD or COVAXIN - vaccine types available (default "COVISHIELD")
+  -t, --date string           Starting date in dd-mm-yyyy ( Checks for 7 days from starting date )
 
 Global Flags:
       --config string   config file (default is $HOME/.jabfinder.yaml)
@@ -49,6 +50,9 @@ Refer the following examples to know how to use this utility
 
 ## For 45 years and dosage 2
 ./jabfinder check -d <districtCode> -a 45 -e 2
+
+## For 45 years and dosage 2 for a custom start date
+./jabfinder check -d <districtCode> -a 45 -e 2 -t "10-06-2021"
 
 ## For checking continuousy use the "--notify" flag. The  command will check for availability every 10 seconds by default. 
 ./jabfinder check -d <districtCode> -a 45 -e 2 --notify

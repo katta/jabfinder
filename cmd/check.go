@@ -16,12 +16,14 @@ var checkCmd = &cobra.Command{
 		dose, _ := cmd.Flags().GetInt("dose")
 		vaccine, _ := cmd.Flags().GetString("vaccine")
 		notify, _ := cmd.Flags().GetBool("notify")
+		date, _ := cmd.Flags().GetString("date")
 
 		cowin.CheckAvailability(&models.Filters{
-			Age:  age,
-			Dose: dose,
+			Age:          age,
+			Dose:         dose,
 			DistrictCode: districtCode,
-			Vaccine: vaccine,
+			Vaccine:      vaccine,
+			Date:         date,
 		}, notify)
 	},
 }
@@ -34,6 +36,7 @@ func init() {
 	checkCmd.Flags().IntP("dose", "e", 1, "1 or 2 - Dose to filter by")
 	checkCmd.Flags().StringP("vaccine", "v", "COVISHIELD", "COVISHIELD or COVAXIN - vaccine types available")
 	checkCmd.Flags().BoolP("notify", "n", false, "Notifies via email when the slots are available")
+	checkCmd.Flags().StringP("date", "t", "", "Starting date in dd-mm-yyyy ( Checks for 7 days from starting date )")
 
 	checkCmd.MarkFlagRequired("districtCode")
 }
