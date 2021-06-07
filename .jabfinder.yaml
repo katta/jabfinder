@@ -6,7 +6,7 @@ cowin:
 
 notify:
   intervalInSeconds: 10
-  toEmail: ""
+  toEmailList: ""
 
 smtp:
   host: "smtp.gmail.com"

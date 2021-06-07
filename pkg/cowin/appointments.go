@@ -73,7 +73,7 @@ func smtpConfig() notifiers.SMTP {
 func emailConfig() notifiers.EMail {
 	return notifiers.EMail{
 		From:    "JabFinder <jabfinderindia@gmail.com>",
-		To:      viper.GetString("notify.toEmail"),
+		To:      viper.GetString("notify.toEmailList"),
 		Subject: "Vaccination Slot Availability",
 		Body:    "Here you go again !!",
 	}
