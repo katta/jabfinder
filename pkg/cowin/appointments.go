@@ -3,18 +3,19 @@ package cowin
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/fatih/color"
-	"github.com/katta/jabfinder/pkg/db"
-	"github.com/katta/jabfinder/pkg/models"
-	"github.com/katta/jabfinder/pkg/notifiers"
-	"github.com/katta/jabfinder/pkg/table"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/fatih/color"
+	"github.com/katta/jabfinder/pkg/db"
+	"github.com/katta/jabfinder/pkg/models"
+	"github.com/katta/jabfinder/pkg/notifiers"
+	"github.com/katta/jabfinder/pkg/table"
+	"github.com/spf13/viper"
 )
 
 const dateFormat = "02-01-2006"
@@ -33,7 +34,7 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 
 				newSessions := db.Register(availableSessions)
 				if len(newSessions) > 0 {
-					notifyByEmail(newSessions)
+					notifyByEmail(newSessions, filters)
 				}
 
 				interval := viper.GetInt("notify.intervalInSeconds")
@@ -51,13 +52,13 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 	}
 }
 
-func notifyByEmail(sessions []models.FlatSession) {
+func notifyByEmail(sessions []models.FlatSession, filters *models.Filters) {
 	if sessions != nil {
 		mailer := &notifiers.Mailer{
 			EMail: emailConfig(),
 			SMTP:  smtpConfig(),
 		}
-		mailer.Notify(sessions)
+		mailer.Notify(sessions, filters)
 	}
 }
 

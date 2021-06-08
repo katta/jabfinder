@@ -3,12 +3,14 @@ package notifiers
 import (
 	"bytes"
 	"fmt"
-	"github.com/katta/jabfinder/pkg/models"
-	gomail "gopkg.in/mail.v2"
 	"html/template"
 	"log"
 	"path"
 	"strings"
+	"time"
+
+	"github.com/katta/jabfinder/pkg/models"
+	gomail "gopkg.in/mail.v2"
 )
 
 type EMail struct {
@@ -28,6 +30,17 @@ type SMTP struct {
 type Mailer struct {
 	EMail
 	SMTP
+}
+
+func getMessage(filters *models.Filters) string {
+	msg := "Vaccines are available in the following centers :"
+	if filters != nil {
+		msg = fmt.Sprintf("Vaccines are available in the following centers for %d+ from %s", filters.Age, time.Now().Format("02-01-2006"))
+		if filters.Date != "" {
+			msg = fmt.Sprintf("Vaccines are available in the following centers for %d+ from %s", filters.Age, filters.Date)
+		}
+	}
+	return msg
 }
 
 func (m *Mailer) SendMail(body string) {
@@ -53,7 +66,7 @@ func (m *Mailer) SendMail(body string) {
 	}
 }
 
-func (m *Mailer) Notify(sessions []models.FlatSession) {
+func (m *Mailer) Notify(sessions []models.FlatSession, filters *models.Filters) {
 	//fmt.Printf("Sending mailer notification for sessions: %+v \n", sessions)
 
 	var body bytes.Buffer
@@ -68,7 +81,7 @@ func (m *Mailer) Notify(sessions []models.FlatSession) {
 		Message  string
 		Sessions []models.FlatSession
 	}{
-		Message:  "Vaccines are available in the following centers :",
+		Message:  getMessage(filters),
 		Sessions: sessions,
 	})
 
