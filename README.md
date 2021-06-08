@@ -2,13 +2,13 @@
 
 Command line utility to check for available covid vaccines based on district, age and dosage preferences.
 
-> **Disclaimer**: This is created just to ease the search for vaccine availability, this is not supported or endorsed by any official governing authorities nor by the author of this utility. So use it with caution and at your own risk.       
+> **Disclaimer**: This is created just to ease the search for vaccine availability, this is not supported or endorsed by any official governing authorities nor by the author of this utility. So use it with caution and at your own risk.
 
 ## Prerequisites
 
-You would need `golang` and `curl` installed on your machine. 
+You would need `golang` and `curl` installed on your machine.
 
-## Usage 
+## Usage
 
 ```
 go build
@@ -41,7 +41,8 @@ For detailed usage of all commands in `jabfinder` checkout [docs](./docs)
 
 **Examples:**
 
-Refer the following examples to know how to use this utility 
+Refer the following examples to know how to use this utility
+
 ```
 ## Replace districtCode with the district you are searching for. Check this doc below on how to find the district code.
 
@@ -62,6 +63,7 @@ JABF_NOTIFY_INTERVALINSECONDS=20 ./jabfinder check -d <districtCode> -a 45 -e 2 
 ```
 
 #### Sample Response
+
 ```
 +------------+------------+--------+--------+-------------------------------+--------------------------------+
 |    DATE    |  VACCINE   | DOSE 1 | DOSE 2 |            CENTER             |            ADDRESS             |
@@ -78,7 +80,8 @@ JABF_NOTIFY_INTERVALINSECONDS=20 ./jabfinder check -d <districtCode> -a 45 -e 2 
 
 ### Sending email notifications
 
-You could use this tool to send you a email notification as and when the new slots are available. Use the following commands to set it up.
+You could use this tool to send you a email notification as and when the new slots are available. Use the following
+commands to set it up.
 
 1. Uses Google's smtp server by default `smtp.google.com`
 2. You should have your email (gmail) and password from which you would want to trigger an email from
@@ -88,39 +91,46 @@ You could use this tool to send you a email notification as and when the new slo
 ```
 export JABF_SMTP_EMAIL=jabfinderindia@gmail.com  # Replace the email with your email
 export JABF_SMTP_PASSWORD=xxx                    # Replace xxx with the password
-export JABF_NOTIFY_TOEMAIL=abc@xyz.com           # Replace abc@xyz.com to the email to which you want to send notifications to
+export JABF_NOTIFY_TOEMAILLIST=abc@xyz.com       # Replace abc@xyz.com to the email to which you want to send notifications to.
 
 # Runt he following command in the same shell where you have set these environment variables
 
 ./jabfinder check --districtCode 294 --age 45 --notify
+
+If you want to send notifications to multiple addresses, separate them by commas. E.g. - 
+export JABF_NOTIFY_TOEMAILLIST=abc@xyz.com,def@xyz.com
 ```
+
 > You may face errors sending email based on your smtp email account settings. Please check the Google's [documentation](https://support.google.com/mail/answer/7126229) to enable the use of SMTP on your email based on your preferences.
 
 ### Finding district code
+
 ```
 ./jabfinder districts
 
 This lists all valid states and asks you which state you want to look up districts for
 ```
 
-If you already know your state code, you can use - 
+If you already know your state code, you can use -
+
 ```
 ./jabfinder districts -s 36
 ```
 
-Find the code to the corresponding district you want to check availability for and use it in the `jabfinder check` command.
+Find the code to the corresponding district you want to check availability for and use it in the `jabfinder check`
+command.
 
 ### Using Docker
 
 You would have to pass environment variables for SMTP config.
 
 Create a `.env-file` locally with the following and replace the values accordingly
-   
+
 ```
 JABF_NOTIFY_INTERVALINSECONDS=300
 JABF_SMTP_EMAIL=abc@xyz.com
 JABF_SMTP_PASSWORD=xxx
-JABF_NOTIFY_TOEMAIL=abc@xyz.com
+JABF_NOTIFY_TOEMAILLIST=abc@xyz.com
 ```  
 
 #### 1. Using published image
@@ -149,7 +159,7 @@ Run the docker image built using above command with the necessary parameters
   
    ## The above command will check for open slots every 5 minutes for the age limit > 18 and dose 1 and sends a mail to abc@xyz.com
    ```
-   
+
 2. Verify if the jabfinder is running in docker using the logs
 
     ```

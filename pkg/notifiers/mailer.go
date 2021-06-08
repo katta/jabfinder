@@ -8,6 +8,7 @@ import (
 	"html/template"
 	"log"
 	"path"
+	"strings"
 )
 
 type EMail struct {
@@ -32,18 +33,23 @@ type Mailer struct {
 func (m *Mailer) SendMail(body string) {
 	message := gomail.NewMessage()
 
-	message.SetHeader("From", m.From)
-	message.SetHeader("To", m.To)
-	message.SetHeader("Subject", m.Subject)
-	message.SetBody("text/html", body)
+	receivers := strings.Split(m.To, ",")
 
-	//fmt.Printf("Sending mailer with config: Email: %s, Password: %s \n", m.Email, m.Password)
-	dialer := gomail.NewDialer(m.Host, m.Port, m.Email, m.Password)
-	dialer.SSL = true
+	for _, receiver := range receivers {
+		message.SetHeader("From", m.From)
+		message.SetHeader("To", receiver)
+		message.SetHeader("Subject", m.Subject)
+		message.SetBody("text/html", body)
 
-	err := dialer.DialAndSend(message)
-	if err != nil {
-		fmt.Printf("Error sending email: %v", err)
+		//fmt.Printf("Sending mailer with config: Email: %s, Password: %s \n", m.Email, m.Password)
+		dialer := gomail.NewDialer(m.Host, m.Port, m.Email, m.Password)
+		dialer.SSL = true
+
+		log.Printf("Sending email to - %s", receiver)
+		err := dialer.DialAndSend(message)
+		if err != nil {
+			fmt.Printf("Error sending email: %v", err)
+		}
 	}
 }
 
