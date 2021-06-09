@@ -3,12 +3,13 @@ package notifiers
 import (
 	"bytes"
 	"fmt"
-	"github.com/katta/jabfinder/pkg/models"
-	gomail "gopkg.in/mail.v2"
 	"html/template"
 	"log"
 	"path"
 	"strings"
+
+	"github.com/katta/jabfinder/pkg/models"
+	gomail "gopkg.in/mail.v2"
 )
 
 type EMail struct {
@@ -53,7 +54,7 @@ func (m *Mailer) SendMail(body string) {
 	}
 }
 
-func (m *Mailer) Notify(sessions []models.FlatSession) {
+func (m *Mailer) Notify(sessions []models.FlatSession, filters *models.Filters) {
 	//fmt.Printf("Sending mailer notification for sessions: %+v \n", sessions)
 
 	var body bytes.Buffer
@@ -68,7 +69,7 @@ func (m *Mailer) Notify(sessions []models.FlatSession) {
 		Message  string
 		Sessions []models.FlatSession
 	}{
-		Message:  "Vaccines are available in the following centers :",
+		Message:  fmt.Sprintf("Vaccines are available in the following centers for %d+ from %s", filters.Age, filters.Date),
 		Sessions: sessions,
 	})
 

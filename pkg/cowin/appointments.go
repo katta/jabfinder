@@ -3,18 +3,19 @@ package cowin
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/fatih/color"
-	"github.com/katta/jabfinder/pkg/db"
-	"github.com/katta/jabfinder/pkg/models"
-	"github.com/katta/jabfinder/pkg/notifiers"
-	"github.com/katta/jabfinder/pkg/table"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/fatih/color"
+	"github.com/katta/jabfinder/pkg/db"
+	"github.com/katta/jabfinder/pkg/models"
+	"github.com/katta/jabfinder/pkg/notifiers"
+	"github.com/katta/jabfinder/pkg/table"
+	"github.com/spf13/viper"
 )
 
 const dateFormat = "02-01-2006"
@@ -22,6 +23,9 @@ const dateFormat = "02-01-2006"
 var exit = make(chan bool)
 
 func CheckAvailability(filters *models.Filters, notify bool) {
+	if filters.Date == "" {
+		filters.Date = time.Now().Format(dateFormat)
+	}
 	log.Printf("Checking availability for: %+v", filters)
 
 	if notify {
@@ -33,7 +37,7 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 
 				newSessions := db.Register(availableSessions)
 				if len(newSessions) > 0 {
-					notifyByEmail(newSessions)
+					notifyByEmail(newSessions, filters)
 				}
 
 				interval := viper.GetInt("notify.intervalInSeconds")
@@ -51,13 +55,13 @@ func CheckAvailability(filters *models.Filters, notify bool) {
 	}
 }
 
-func notifyByEmail(sessions []models.FlatSession) {
+func notifyByEmail(sessions []models.FlatSession, filters *models.Filters) {
 	if sessions != nil {
 		mailer := &notifiers.Mailer{
 			EMail: emailConfig(),
 			SMTP:  smtpConfig(),
 		}
-		mailer.Notify(sessions)
+		mailer.Notify(sessions, filters)
 	}
 }
 
@@ -82,12 +86,7 @@ func emailConfig() notifiers.EMail {
 func retrieveAvailableSessions(filters *models.Filters) []models.FlatSession {
 	client := &http.Client{Timeout: 60 & time.Second}
 
-	date := filters.Date
-	if date == "" {
-		date = time.Now().Format(dateFormat)
-	}
-
-	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode, date), nil)
+	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode, filters.Date), nil)
 	exitOnError(err)
 
 	request.Header.Add("user-agent", "Mozilla/5.0")
