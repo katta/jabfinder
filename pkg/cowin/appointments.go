@@ -23,10 +23,6 @@ const dateFormat = "02-01-2006"
 var exit = make(chan bool)
 
 func CheckAvailability(filters *models.Filters, notify bool) {
-	if filters.Date == "" {
-		filters.Date = time.Now().Format(dateFormat)
-	}
-	log.Printf("Checking availability for: %+v", filters)
 
 	if notify {
 		go func() {
@@ -84,6 +80,11 @@ func emailConfig() notifiers.EMail {
 }
 
 func retrieveAvailableSessions(filters *models.Filters) []models.FlatSession {
+	if filters.Date == "" {
+		filters.Date = time.Now().Format(dateFormat)
+	}
+	log.Printf("Checking availability for: %+v", filters)
+
 	client := &http.Client{Timeout: 60 & time.Second}
 
 	request, err := http.NewRequest("GET", buildAppointmentQuery(filters.DistrictCode, filters.Date), nil)
